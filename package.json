@@ -2,7 +2,6 @@
   "name": "portfolio-2017",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://khalilbenihoud.github.io/myapp",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
