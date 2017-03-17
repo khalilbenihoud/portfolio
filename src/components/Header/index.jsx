@@ -14,7 +14,7 @@ class Header extends Component {
           <div className="db dtc-l v-mid w-100 w-75-l tc tr-l nav-link ttu">
             <a className="link dim white-50 f6 f5-l dib mr3 mr4-l" href="#" title="Home">Home</a>
             <a className="link dim white-50 f6 f5-l dib mr3 mr4-l" href="#" title="About">About</a>
-            <a className="link dim white-50 f6 f5-l dib" href="#" title="Contact">contact</a>
+            <a className="link dim white-50 f6 f5-l dib pr2-ns" href="#" title="Contact">contact</a>
           </div>
         </nav>
       </header>
