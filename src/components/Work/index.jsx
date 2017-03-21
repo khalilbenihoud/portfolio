@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Work extends Component {
     render() {
-      
+
       const{
         projectImage,
         projectTitle,
@@ -10,8 +10,8 @@ class Work extends Component {
       } = this.props;
 
       return (
-        <article className="fl w-100 w-50-m w-50-ns">
-          <div className="aspect-ratio aspect-ratio--16x9 mr2  hover-img">
+        <article className="fl w-100 w-50-m w-50-ns mr0 mr8">
+          <div className="aspect-ratio aspect-ratio--16x9 hover-img">
             <img src={projectImage} className="db bg-center cover aspect-ratio--object" alt="" />
           </div>
           <a href="#0" className="ph2 ph0-ns pb3 link db">

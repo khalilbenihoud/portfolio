@@ -44,7 +44,7 @@ class Home extends Component{
             <button className='f6 f5-ns fw6 dib ba b--black-20 white grow ph3 ph4-ns pv2 pv3-ns br2 no-underline tracked-mega ttu' href="mailto:hello@benihoudkhalil.com">Hire me →</button>
           </div>
         </section>
-        <section className="dt w-100 mw9 center ph5-l overflow-hidden work pointer">
+        <section className="dt w-100 mw9 center ph5-l pa2-ns overflow-hidden work pointer">
               {_.map(data, (work, i) => {
                 return (
                   <Work
