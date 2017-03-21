@@ -1,0 +1,24 @@
+{
+  "works": [
+    {
+      "projectImage": "images/influans.png",
+      "projectTitle": "Influans",
+      "projectDescription": "dadda"
+    },
+    {
+      "projectImage": "images/molotov-tv.png",
+      "projectTitle": "Molotov Tv",
+      "projectDescription": "dadadada"
+    },
+    {
+      "projectImage": "images/empreintes.png",
+      "projectTitle": "Empreintes",
+      "projectDescription": "dadadada"
+    },
+    {
+      "projectImage": "images/viadeo-partners.png",
+      "projectTitle": "Viadeo Partners",
+      "projectDescription": "dadadada"
+    }
+  ]
+}

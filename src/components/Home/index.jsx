@@ -8,28 +8,7 @@ import Footer from '../Footer'
 
 class Home extends Component{
   render(){
-    const data = [
-          {
-            projectImage: require('../../img/influans.png'),
-            projectTitle: "Influans",
-            projectDescription: "dadda"
-          },
-          {
-            projectImage: require('../../img/molotov-tv.png'),
-            projectTitle: "Molotov Tv",
-            projectDescription: "dadadada"
-          },
-          {
-            projectImage: require('../../img/empreintes.png'),
-            projectTitle: "Empreintes",
-            projectDescription: "dadadada"
-          },
-          {
-            projectImage: require('../../img/viadeo-partners.png'),
-            projectTitle: "Viadeo Partners",
-            projectDescription: "dadadada"
-          },
-        ];
+    const data = require('../../data.json').works;
 
     return(
       <main id="Home" className="w-100">

@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 class Footer extends Component {
   render(){
 
-    const imgFooter = require('../../img/tarbouche.svg');
+    const imgFooter = "images/tarbouche.svg";
 
     return(
       <footer id="Footer" className="pv4 ph3 ph5-ns tc">

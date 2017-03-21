@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 
 class Header extends Component {
   render(){
-    const imgLogo = require('../../img/logo.svg')
+    const imgLogo = "images/logo.svg";
     return(
         <nav className="dt w-100 mw9 center ph5-l db dt-l border-box pv4  nav-link">
           <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
