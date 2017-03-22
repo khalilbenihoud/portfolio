@@ -14,9 +14,9 @@ class Home extends Component{
       <main id="Home" className="w-100">
         <section id="Hero" className="cover cf center ph3">
         <Header />
-          <div className="dt w-100 mw9 center ph5-l ma3">
-            <h1 className='ttu tracked'>Hello</h1>
-            <h2 className='lh-copy f5 f-subheadline-l measure-wide f3-l white'>
+          <div className="dt w-100 mw9 center ph5-l ">
+            <h1 className='f1 f-headline-l fw1'>Marhaba_</h1>
+            <h2 className='lh-copy f5 f-subheadline-l measure-wide f3-l white-70'>
                 I am a Product Designer at <a className='link white b grow pointer no-underline highlight' href="http://www.viadeo.com">Viadeo </a> where I am creating beautiful interfaces & tasty experiences.
                 Want to know more <a href="#" className='link white b grow pointer no-underline highlight'>about me </a> ?
             </h2>
@@ -35,7 +35,6 @@ class Home extends Component{
                 )
               })}
         </section>
-
         <Contact />
         <Footer />
       </main>

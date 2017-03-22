@@ -10,7 +10,7 @@ class Work extends Component {
       } = this.props;
 
       return (
-        <article className="fl w-100 w-50-m w-50-ns mr0 mr8">
+        <article className="fl w-100 w-50-l pr2-l pb3">
           <div className="aspect-ratio aspect-ratio--16x9 hover-img">
             <img src={projectImage} className="db bg-center cover aspect-ratio--object" alt="" />
           </div>
