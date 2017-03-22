@@ -29,20 +29,27 @@ body {
 }
 
 h1{
-  font-family: 'Quarto Bold', serif;
+  /*font-family: 'Quarto Bold', serif;
   color:white;
   font-size: 100px;
-  line-height: 0;
-  /*font-style: italic;*/
-}
-
-h2{
-  font-family: 'Karla', serif;
-  font-size: 18px;
+  line-height: 0;*/
+  font-family: 'Playfair Display', serif;
   font-weight: lighter;
   color: #FFFFFF;
   line-height: 39px;
+  /*font-style: italic;*/
 }
+
+p{
+  font-family: 'Karla', serif;
+}
+/*
+h2{
+  font-family: 'Karla', serif;
+  font-weight: lighter;
+  color: #FFFFFF;
+  line-height: 39px;
+}*/
 
 h3{
   font-family: 'Playfair Display', serif;

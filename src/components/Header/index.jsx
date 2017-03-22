@@ -11,9 +11,18 @@ class Header extends Component {
             <img src={imgLogo} class="dib w2 h2 br-100" alt="Site Name" />
           </a>
           <div className="db dtc-l v-mid w-100 w-75-l tc tr-l ttu fw7">
-            <a className="link dim white-70 f6 f5-l dib mr3 mr4-l tracked-mega-l" href="#" title="Home">Home</a>
-            <a className="link dim white-70 f6 f5-l dib mr3 mr4-l tracked-mega-l" href="#" title="About">About me</a>
-            <a className="link dim white-70 f6 f5-l dib tracked-mega-l" href="#" title="Contact">Contact</a>
+            <ul className="list display-none-l">
+              <li>
+                <a className="link dim white-70 f6 f5-l dib tracked-mega-l" href="#" title="Home">Home</a>
+              </li>
+              <li>
+                <a className="link dim white-70 f6 f5-l dib tracked-mega-l" href="#" title="About">About</a>
+              </li>
+              <li>
+                <a className="link dim white-70 f6 f5-l dib tracked-mega-l" href="#" title="Contact">Contact</a>
+              </li>
+            </ul>
+
           </div>
         </nav>
     )
