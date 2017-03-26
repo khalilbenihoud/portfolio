@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 
-
 class Header extends Component {
   render(){
     const imgLogo = "images/logo.svg";
     return(
         <nav className="dt w-100 mw9 center ph5-l db dt-l border-box pv4  nav-link">
           <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
-            <img src={imgLogo} class="dib w2 h2 br-100" alt="Site Name" />
+            <Link to="/"><img src={imgLogo} class="dib w2 h2 br-100" alt="Site Name" /></Link>
           </a>
           <div className="db dtc-l v-mid w-100 w-75-l tc tr-l ttu fw7">
             <ul className="list display-none-l">
               <li>
-                <a className="link dim white-70 f6 f5-l dib tracked-mega-l" href="#" title="Home">Home</a>
+                <Link className="link dim white-70 f6 f5-l dib tracked-mega-l" to="/" title="Home">Home</Link>
               </li>
               <li>
-                <a className="link dim white-70 f6 f5-l dib tracked-mega-l" href="#" title="About">About</a>
+                <Link className="link dim white-70 f6 f5-l dib tracked-mega-l" to="/about" title="About">About</Link>
               </li>
               <li>
-                <a className="link dim white-70 f6 f5-l dib tracked-mega-l" href="#" title="Contact">Contact</a>
+                <Link className="link dim white-70 f6 f5-l dib tracked-mega-l" to="/" title="Contact">Contact</Link>
               </li>
             </ul>
 

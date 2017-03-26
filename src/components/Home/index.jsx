@@ -4,7 +4,8 @@ import _ from 'lodash';
 import Header from '../Header';
 import Work from '../Work';
 import Contact from '../Contact';
-import Footer from '../Footer'
+import Footer from '../Footer';
+import About from '../Pages/About';
 
 class Home extends Component{
   render(){
@@ -36,6 +37,7 @@ class Home extends Component{
                 )
               })}
         </section>
+        
         <Contact />
         <Footer />
       </main>
