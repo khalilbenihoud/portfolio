@@ -29,32 +29,26 @@ body {
 }
 
 h1{
-  /*font-family: 'Quarto Bold', serif;
-  color:white;
-  font-size: 100px;
-  line-height: 0;*/
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   color: #FFFFFF;
   line-height: 39px;
-  /*font-style: italic;*/
 }
 
-p{
+#Home p{
   font-family: 'Karla', serif;
 }
-/*
-h2{
+
+#About-Me p{
   font-family: 'Karla', serif;
-  font-weight: lighter;
-  color: #FFFFFF;
-  line-height: 39px;
-}*/
+  font-weight: 400;
+}
 
 h3{
   font-family: 'Playfair Display', serif;
   font-size: 38px;
 }
+
 
 
 .nav-link{
@@ -178,57 +172,6 @@ footer p:after{
   }
 }
 
-/*
-
-[data-wipe] {
-  font-family:'Karla', serif;
-  font-weight:700;
-  font-size: 14px;
-  color: white;
-  letter-spacing: 0.1em;
-  display: inline-block;
-  padding: 14px 46px;
-  text-decoration: none;
-  position: relative;
-  background: #445561;
-  border-radius: 3px;
-  text-transform: uppercase;
-  text-align: left;
-  overflow: hidden;
-  background-color:#C42E40;
-  letter-spacing: 2px;
-}
-[data-wipe]:before, [data-wipe]:after {
-  content: attr(data-wipe);
-  padding-top: inherit;
-  padding-bottom: inherit;
-  white-space: nowrap;
-  position: absolute;
-  top: 0;
-  overflow: hidden;
-  background: #B21B2D;
-}
-[data-wipe]:before {
-  left: 0;
-  text-indent: 46px;
-  width: 0;
-}
-[data-wipe]:after {
-  padding-left: inherit;
-  padding-right: inherit;
-  left: 100%;
-  text-indent: calc(-100% - 36px);
-  transition: 0.2s ease-in-out;
-}
-[data-wipe]:hover:before {
-  width: 100%;
-  transition: width 0.2s ease-in-out;
-}
-[data-wipe]:hover:after {
-  left: 0;
-  text-indent: 0;
-  transition: 0s 0.2s ease-in-out;
-}*/
 
 button {
   position:absolute;
