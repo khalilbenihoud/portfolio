@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import Header from '../../Header';
 import Home from '../../Home';
 import Footer from '../../Footer';
+import Contact from '../../Contact';
 
 
 class About extends Component {
@@ -12,67 +13,78 @@ class About extends Component {
       const imgAbout = "images/me.jpg";
 
       return (
-        <article className="athelas">
-        <div
-className="vh-100 dt w-100 tc bg-dark-gray white cover"
-style={{background: 'url(http://mrmrs.io/photos/u/009.jpg) no-repeat center'}}>
-          <div className="dtc v-mid">
-            <header className="white-70">
-              <h2 className="f6 fw1 ttu tracked mb2 lh-title">
-Issue Six
-</h2>
-              <h3 className="f6 fw1 lh-title">
-Summer MMXVI
-</h3>
-            </header>
-            <h1 className="f1 f-headline-l fw1 i white-60">
-The Chronicles
-</h1>
-            <blockquote className="ph0 mh0 measure f4 lh-copy center">
-              <p className="fw1 white-70">
-                It's the space you put between the notes that make the music.
-              </p>
-              <cite className="f6 ttu tracked fs-normal">
-Massimo Vignelli
-</cite>
-            </blockquote>
+        <section id="About-Khalil">
+          <div className="vh-75 dt w-100 tc bg-dark-gray white cover">
+            <Header />
+            <h1 className="f1 f-subheadline-l measure lh-title fw9 v-mid">Me, myself & I</h1>
           </div>
-        </div>
-        <div className="center measure-wide f5 pv5 lh-copy ph2">
-          <h1 className="f1 lh-title">
-The repercussion of ugliness is endless
-</h1>
-          <p>
-            The choice of paper size is one of the  first of any given work to be printed. There are two basic paper size systems in the world: the international A sizes, and the American sizes.
-          </p>
-          <p>
-            The international Standard paper sizes, called the A series, is based
-            on a golden rectangle, the divine proportion. It is extremely handsome
-            and practical as well. It is adopted by many countries around the world
-            and is based on the German DIN metric Standards. The United States uses
-            a basic letter size (8 1/2 x 11”) of ugly proportions, and results in
-            complete chaos with an endless amount of paper sizes. It is a
-            by-product of the culture of free enterprise, competition and waste.
-            Just another example of the misinterpretations of freedom.
-          </p>
-          <p>
-            These are the basic DIN sizes in mm. for : A0, 841x1189 - A1, 594x841 -
-            A2, 420x594 - A3, 297x420 - A4, 210x297 - A5, 148x210 - A6, 105 x148 -
-            A7, 74x 105 - A8, 52x74 - A9, 37x52 - A10, 26x37.
-          </p>
-          <p>
-            The A4 is the basic size for stationary. Two thirds of it is a square,
-            a nice economical happenstance resulting from the golden rectangle.
-            It is one of the reasons we tend to use as much
-            as possible the DIN sizes: proportions are always leading to other nice proportions.
-          </p>
-          <p>
-            This does not happen with the American basic size which leads to nothing. I counted 28 different standard sizes in USA!. The only reason we use it is because everybody in USA uses it, all stationary in USA is that size, so are manilla folders,  les and of ce equipment!
-            The repercussion of ugliness is endless.
-          </p>
-        </div>
-      </article>
-      
+          <div className="khalil-infos dt w-100 mw9 center ph5-l">
+            <p className="f3-l lh-copy f3-m center pv4 serif">
+              Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
+              passionate about traveling, design, new technologies.
+              In addition to my technical skills, I am adaptable, cheerful and love to be a part of building world class products.
+            </p>
+          </div>
+          <div className="khalil-work-awards bg-near-white sans-serif ">
+            <div className="mw9 center ph3-ns ph5-l">
+              <div className="cf ph2-ns">
+                <div className="fl w-100 w-50-ns pa2">
+                  <div className="pv4 ttu b tracked-mega">Work</div>
+                  <article>
+                    <time className="f6 db gray ttu sans-serif">June 2015 - Present</time>
+                    <p className="serif">Product Designer</p>
+                    <p className="serif b">Viadeo</p>
+                  </article>
+                  <article>
+                    <time className="f6 db gray ttu sans-serif">April 2014 - July 2014</time>
+                    <p className="serif">UI Designer & Front-End Developer</p>
+                    <p className="serif b">Agence Digital Senzo</p>
+                  </article>
+                  <article>
+                    <time className="f6 db gray ttu sans-serif">June 2013 - September 2013</time>
+                    <p className="serif">UI Designer & Front-End Developer</p>
+                    <p className="serif b">Obytes</p>
+                  </article>
+                </div>
+
+                <div className="fl w-100 w-50-ns pa2">
+                  <div className="pv4 ttu b">Honors & Awards</div>
+                    <article>
+                      <time className="f6 db gray ttu sans-serif">October 2016</time>
+                      <p className="serif">1st prize "​Special prize by Uber"​</p>
+                      <p className="serif b">Hack The City</p>
+                    </article>
+                    <article>
+                      <time className="f6 db gray ttu sans-serif">January 2016</time>
+                      <p className="serif">2nd prize</p>
+                      <p className="serif b">Startup week-end Amiens</p>
+                    </article>
+                    <article>
+                      <time className="f6 db gray ttu sans-serif">November 2015</time>
+                      <p className="serif">1st prize</p>
+                      <p className="serif b">Hackathon UTC</p>
+                    </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="khalil-recommendations">
+            <div className="pa4 mw9 center ph3-ns ph5-l">
+              <h2 className="tracked-mega-l ttu ">Recommendations</h2>
+              <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
+                <p className="f5 f4-m f3-l lh-copy measure mt0">
+                Khalil is an outstanding designer with many skills who use with perfect control.
+                All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.
+                It's a real pleasure to work with him, always with the smile ;)
+                </p>
+                <cite className="f6 ttu tracked fs-normal">- Marie Dehayes</cite>
+              </blockquote>
+            </div>
+          </div>
+          <Contact />
+          <Footer />
+        </section>
+
       )
     }
 }

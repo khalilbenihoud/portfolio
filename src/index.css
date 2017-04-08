@@ -9,7 +9,7 @@ body {
 }
 
 #Hero{
-  background-image: url('../public/images/background.png');
+  background-image: url('https://images.unsplash.com/photo-1458724204880-8a3555bb5003?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=');
   background-color: #FBFBFB;
   height:900px;
   position: relative;
@@ -48,7 +48,6 @@ h3{
   font-family: 'Playfair Display', serif;
   font-size: 38px;
 }
-
 
 
 .nav-link{
