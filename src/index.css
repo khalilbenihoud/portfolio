@@ -9,8 +9,8 @@ body {
 }
 
 #Hero{
-  background-image: url('https://images.unsplash.com/photo-1458724204880-8a3555bb5003?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=');
-  background-color: #FBFBFB;
+  background-image: url('../public/images/background.png');
+  background-color: #000;
   height:900px;
   position: relative;
 }
@@ -27,6 +27,30 @@ body {
   bottom: -12%;
   left: 0;
 }
+
+.khalil-intro{
+  /* Mask: */
+background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
+}
+/*
+.khalil-intro{
+  position: relative;
+  height:599px;
+
+}
+
+.khalil-intro:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  background: white;
+  -webkit-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  bottom: -12%;
+  left: 0;
+}*/
 
 h1{
   font-family: 'Playfair Display', serif;

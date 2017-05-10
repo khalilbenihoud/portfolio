@@ -16,16 +16,19 @@ class Home extends Component{
       <main id="Home" className="w-100">
         <section id="Hero" className="cover cf center ph3">
           <Header />
-          <div className="dt w-100 mw9 center ph5-l ">
-            <h1 className="f1-l lh-solid fw7 i">Hello, my name is Khalil 👋🏼 </h1>
-            <p className='f5 f2 f3-l measure-wide fw1 lh-copy f-subheadline-l measure-wide white-70'>
-              I am a Product Designer at <Link className='link white b grow pointer no-underline highlight' to="http://www.viadeo.com">Viadeo </Link> where I am creating beautiful interfaces & tasty experiences.
-              Want to know more <Link to="about" className='link white b grow pointer no-underline highlight'>about me </Link> ?
-            </p>
-            <button className='f6 f5-ns fw6 dib ba b--black-20 white grow ph3 ph4-ns pv2 pv3-ns br2 no-underline tracked-mega ttu' href="mailto:hello@benihoudkhalil.com">Hire me →</button>
-          </div>
+            <div className="db dt-ns mw9 center w-100">
+                <div className="pb3 pb4-ns pt4 pt4-ns mt4 white fl-l w-50-l">
+                  <h1 className="f4 fw6 f1-ns lh-title measure mt0 i">
+                  Hello, my name is Khalil 👋🏼
+                  </h1>
+                  <p className="f5 f4-ns fw4 b measure dib-m lh-copy">
+                  I am a Product Designer at <Link className='link white b grow pointer no-underline highlight' to="http://www.viadeo.com">Viadeo </Link> where I am creating beautiful interfaces & tasty experiences.
+                  Want to know more <Link to="about" className='link white b grow pointer no-underline highlight'>about me </Link> ?
+                  </p>
+              </div>
+            </div>
         </section>
-        <section className="dt w-100 mw9 center ph5-l pa2-ns overflow-hidden work pointer">
+        <section className="db dt-ns mw9 center w-100 overflow-hidden work pointer">
               {_.map(data, (work, i) => {
                 return (
                   <Work
