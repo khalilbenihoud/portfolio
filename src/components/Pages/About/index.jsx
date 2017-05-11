@@ -86,7 +86,7 @@ class About extends Component {
                 All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.
                 It's a real pleasure to work with him, always with the smile ;)
                 </p>
-                <cite className="f6 ttu tracked fs-normal">- Marie Dehayes</cite>
+                <cite className="f6 ttu tracked fs-normal">Marie Dehayes - Head of UX Design <Link className="link black" to="http://viadeo.com/">Viadeo</Link></cite>
             </div>
           </div>
           <Contact />

@@ -31,13 +31,9 @@ body {
 .khalil-intro{
   /* Mask: */
 background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
+position:relative;
 }
-/*
-.khalil-intro{
-  position: relative;
-  height:599px;
 
-}
 
 .khalil-intro:after{
   content: '';
@@ -45,12 +41,16 @@ background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
   position: absolute;
   width: 100%;
   height: 25%;
-  background: white;
+  background: #f4f4f4;
   -webkit-transform: skewY(-4deg);
   transform: skewY(-4deg);
   bottom: -12%;
   left: 0;
-}*/
+}
+
+.khalil-work-awards{
+  position:relative;
+}
 
 h1{
   font-family: 'Playfair Display', serif;
