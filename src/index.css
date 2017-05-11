@@ -31,10 +31,12 @@ body {
 .khalil-intro{
   /* Mask: */
 background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
-position:relative;
+background-image: url('../public/images/me.png');
+background-size:cover;
+
 }
 
-
+/*
 .khalil-intro:after{
   content: '';
   display: block;
@@ -46,11 +48,24 @@ position:relative;
   transform: skewY(-4deg);
   bottom: -12%;
   left: 0;
-}
-
-.khalil-work-awards{
+}*/
+/*
+#khalil-work-awards:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  background: #f4f4f4;
+  -webkit-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  bottom: -12%;
+  left: 0;
+}*/
+/*
+#khalil-work-awards{
   position:relative;
-}
+}*/
 
 h1{
   font-family: 'Playfair Display', serif;

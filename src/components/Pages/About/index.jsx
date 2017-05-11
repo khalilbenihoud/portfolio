@@ -10,27 +10,35 @@ import Contact from '../../Contact';
 class About extends Component {
     render() {
 
-      const imgAbout = "images/me.jpg";
+      const imgAbout = "images/me.png";
       const imgMe = "images/khalil.jpg";
 
       return (
+
           <section id="About-Khalil" className="">
             <div className="khalil-intro cover cf bg-mid-gray center ph3">
               <Header />
                 <div className="db dt-ns mw9 center w-100">
-                  <div className="pb3 pb4-ns pt4 pt4-ns mt4 white fl-l w-50-l">
-                    <h1 className="f4 fw6 f1-ns lh-title measure mt0 i">
-                      Husband of 2. Father of 1👋🏼
-                    </h1>
-                    <p className="f5 f4-ns fw4 b measure dib-m lh-copy pb6">
-                          Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
-                          passionate about traveling, design, new technologies.
-                          In addition to my technical skills, I am adaptable, cheerful and love to be a part of building world class products.
-                    </p>
-                  </div>
-                  <div className="fl-l w-50-l">
-                    <img src={imgAbout} class="w-100 f5 measure" alt="Photo of outer space" />
+                  <div className="mw9 center">
+                    <div className="cf ">
+                      <div className="fl w-100 w-50-ns">
+                        <div className="pv4">
+                          <h1 className="f4 fw6 f1-ns white lh-title measure mt0 i">
+                            Husband of 2. Father of 1👋🏼
+                          </h1>
+                          <p className="f5 f4-ns fw4 b measure dib-m white-80 lh-copy pb6">
+                                Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
+                                passionate about traveling, design, new technologies.
+                                In addition to my technical skills, I am adaptable, cheerful and love to be a part of building world class products.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="fl-l w-100 w-50-l">
+                        <div className="pv4">
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
             </div>
 
