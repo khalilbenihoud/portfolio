@@ -10,7 +10,7 @@ import Footer from '../Footer';
 
 class Home extends Component{
   render(){
-    const data = require('../../data.json').works;
+    const data = require('../../data.json').list;
 
     return(
       <main id="Home" className="w-100">
@@ -32,7 +32,7 @@ class Home extends Component{
               {_.map(data, (work, i) => {
                 return (
                   <Work
-                    id={`work_${i}`}
+                    id={work.id}
                     projectImage={work.projectImage}
                     projectTitle={work.projectTitle}
                     projectDescription={work.projectDescription}
