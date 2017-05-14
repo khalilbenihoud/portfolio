@@ -27,7 +27,9 @@
   ],
   "details": {
     "influans": {
-
+      "projectImage": "images/influans.png",
+      "projectTitle": "Influans",
+      "projectDescription": "dadda"
     },
     "molotov":{
 
@@ -38,6 +40,6 @@
     "viadeo-partners":{
 
     }
-    
+
   }
 }

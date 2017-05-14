@@ -31,7 +31,7 @@ body {
 .khalil-intro{
   /* Mask: */
 background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
-background-image: url('../public/images/me.png');
+background-image: url('../public/images/me.jpg');
 background-size:cover;
 
 }
