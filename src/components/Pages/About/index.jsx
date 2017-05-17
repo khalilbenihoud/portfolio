@@ -23,9 +23,9 @@ class About extends Component {
                     <div className="cf ">
                       <div className="fl w-100 w-50-ns">
                         <div className="pv4">
-                          <h1 className="f4 fw6 f1-ns white lh-title measure mt0 i">
+                          <h2 className="f4 fw6 f1-ns white lh-title measure mt0 i">
                             Husband of 2. Father of 1👋🏼
-                          </h1>
+                          </h2>
                           <p className="f5 f4-ns fw4 b measure dib-m white-80 lh-copy pb6">
                                 Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
                                 passionate about traveling, design, new technologies.

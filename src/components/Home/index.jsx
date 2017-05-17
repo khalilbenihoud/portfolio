@@ -18,9 +18,9 @@ class Home extends Component{
           <Header />
             <div className="db dt-ns mw9 center w-100">
                 <div className="pb3 pb4-ns pt4 pt4-ns mt4 white fl-l w-50-l">
-                  <h1 className="f4 fw6 f1-ns lh-title measure mt0 i">
+                  <h2 className="f4 fw6 f1-ns lh-title measure mt0 i">
                   Hello, my name is Khalil 👋🏼
-                  </h1>
+                </h2>
                   <p className="f5 f4-ns fw4 b measure dib-m lh-copy">
                   I am a Product Designer at <Link className='link white b grow pointer no-underline highlight' to="http://www.viadeo.com">Viadeo </Link> where I am creating beautiful interfaces & tasty experiences.
                   Want to know more <Link to="about" className='link white b grow pointer no-underline highlight'>about me </Link> ?
