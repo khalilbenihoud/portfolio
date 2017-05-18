@@ -28,12 +28,13 @@ export default [
     ],
     "details": {
       "influans": {
+        "projectTime": "11/09/2016",
         "projectImage": "images/influans.png",
         "projectTitle": "Influans",
         "projectDescription": "dadda",
-        "projectOverview": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.",
+        "projectInfo": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.",
         "projectRole": "UX Design",
-        "projectTeam": "Viadeo Design team"
+        "projectTeam":["Benihoud Khalil","Toto","javascript"]
       },
       "molotov":{
         "projectImage": "images/influans.png",

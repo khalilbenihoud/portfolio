@@ -25,19 +25,43 @@ class Projects extends Component {
               <Header />
                 <div className="projects-top db dt-ns mw9 center w-100 tc">
                   <div className="pb3 pb4-ns pt4 pt4-ns mt4 white-70">
-                    <time className="f5 f4-l db fw1 baskerville mb2"> March 19th, 2015</time>
+                    <time className="f5 f4-l db fw1 baskerville mb2">{project.projectTime}</time>
                     <h2 className="tc f1 lh-title mt0 i">
                       {project.projectTitle}
                     </h2>
                   </div>
                 </div>
               </div>
-                <div className="projects-infos db dt-ns mw9 center w-100 ">
-                  <h3>Overview</h3>
-                  <div className="center measure-wide f5 pv5 lh-copy ph2">
-                    <p>{project.projectOverview}</p>
-                  </div>
+                <div className="projects-infos db dt-ns mw9 center w-100 ph3 ph4-m ph5-l">
+                  <div className="serif ph3 ph4-m ph5-l">
+                    <p className="lh-copy f5 f3-m f4-l measure center pv4">{project.projectInfo}</p>
+                      <div className="cf">
+                        <article className="fl pv2 w-100 w-third-l pr4-l">
+                          <h2 className="f5 f4-ns fw6 mb0 black">Project info</h2>
+                          <p className="f6 f5-ns measure lh-copy mt0">
+                            {project.projectInfo}
+                          </p>
+                        </article>
+                        <article className="pv2 fl w-100 w-third-l ph3-l">
+                          <h2 className="f5 f4-ns fw6 mb0 black">Role</h2>
+                          <p className="f6 f5-ns measure lh-copy mt0">
+                            {project.projectInfo}
+                          </p>
+                        </article>
+                        <article className="pv2 fl w-100 w-third-l pl4-l">
+                          <h2 className="f5 f4-ns fw6 mb0 black">
+                            Teammates
+                          </h2>
+                          <p className="f6 f5-ns measure lh-copy mt0">
+                            {project.projectTeam}
+                          </p>
+                        </article>
+                      </div>
+
+
+
                 </div>
+              </div>
           </section>
 
 
