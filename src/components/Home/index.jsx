@@ -10,7 +10,7 @@ import Footer from '../Footer';
 
 class Home extends Component{
   render(){
-    const data = require('../../data.json').list;
+    const data = require('../../data.json');
 
     return(
       <main id="Home" className="w-100">
@@ -29,10 +29,10 @@ class Home extends Component{
             </div>
         </section>
         <section className="db dt-ns mw9 center w-100 overflow-hidden work pointer">
-              {_.map(data, (work, i) => {
+              {_.map(data, (work, key) => {
                 return (
                   <Work
-                    id={work.id}
+                    id={key}
                     projectImage={work.projectImage}
                     projectTitle={work.projectTitle}
                     projectDescription={work.projectDescription}

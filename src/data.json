@@ -1,45 +1,38 @@
 {
-  "list": [
-    {
-      "id": "influans",
-      "projectImage": "images/influans.png",
-      "projectTitle": "Influans",
-      "projectDescription": "dadda"
-    },
-    {
-      "id": "molotov",
-      "projectImage": "images/molotov-tv.png",
-      "projectTitle": "Molotov Tv",
-      "projectDescription": "dadadada"
-    },
-    {
-      "id": "empreintes",
-      "projectImage": "images/empreintes.png",
-      "projectTitle": "Empreintes",
-      "projectDescription": "dadadada"
-    },
-    {
-      "id": "viadeo-partners",
-      "projectImage": "images/viadeo-partners.png",
-      "projectTitle": "Viadeo Partners",
-      "projectDescription": "dadadada"
+  "influans": {
+    "projectImage": "images/influans.png",
+    "projectTitle": "Influans",
+    "projectDescription": "dadda",
+    "details": {
+      "projectImageHeader": "images/influans-bg.png",
+      "projectTime": "11/09/2016",
+      "projectDescription": "dadda",
+      "projectInfo": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.",
+      "projectRole": ["Wireframing","User Experience","User Interface"],
+      "projectTeam":["Benihoud Khalil"]
     }
-  ],
-  "details": {
-    "influans": {
-      "projectImage": "images/influans.png",
-      "projectTitle": "Influans",
-      "projectDescription": "dadda"
-    },
-    "molotov":{
-
-    },
-    "empreintes":{
-
-    },
-    "viadeo-partners":{
-
+  },
+  "molotov": {
+    "projectImage": "images/molotov-tv.png",
+    "projectTitle": "Molotov Tv",
+    "projectDescription": "dadadada",
+    "details": {
+      "projectImageHeader": "images/molotov-bg.png",
+      "projectTime": "11/09/2016",
+      "projectDescription": "dadda",
+      "projectInfo": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.",
+      "projectRole": ["Benihoud Khalil","Toto","javascript"],
+      "projectTeam":["Benihoud Khalil","Toto","javascript"]
     }
-
+  },
+  "empreintes": {
+    "projectImage": "images/empreintes.png",
+    "projectTitle": "Empreintes",
+    "projectDescription": "dadadada"
+  },
+  "viadeo-partners": {
+    "projectImage": "images/viadeo-partners.png",
+    "projectTitle": "Viadeo Partners",
+    "projectDescription": "dadadada"
   }
 }
