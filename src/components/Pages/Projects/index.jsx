@@ -42,7 +42,7 @@ class Projects extends Component {
           <div className="projects-infos db dt-ns mw9 center w-100 ph3 ph4-m ph5-l">
             <div className="serif ph3 ph4-m ph5-l">
               <div className="cf">
-                <article className="pv2 fl w-100 w-60-l pr0 pr2-l">
+                <article className="pv2 fl w-100 w-60-l pr0 pr2-l sans-serif">
                   <h2 className="f5 f4-ns fw6 mb0 black">
                     Project info
                   </h2>
@@ -68,8 +68,6 @@ class Projects extends Component {
                   </p>
                 </article>
               </div>
-
-
 
               <div className="f5 f3-m lh-copy">
                 <div className="cf dt-l w-100 bt b--black-10 pv4">
@@ -115,24 +113,19 @@ class Projects extends Component {
                     src="../images/PYMK_Contact_Added.png"
                     alt="" />
                 </div>
-                <div className="fl w-50 w-50-l pr1 pr0-l pl2-l pb3">
+                <div className="fl w-100 w-50-l pr1 pr0-l pl2-l pb3">
                   <img
                     className="db w-100"
                     src="../images/PYMK_Contact_Added.png"
                     alt="" />
                 </div>
-                <div className="fl w-50 w-50-l pl2 pl0-l pr2-l pb3">
+                <div className="fl w-100 w-100-l pl2 pl0-l pr2-l pb3">
                   <img
                     className="db w-100"
                     src="../images/PYMK_Contact_Added.png"
                     alt="" />
                 </div>
-                <div className="fl w-100 w-50-l pl2-l">
-                  <img
-                    className="db w-100"
-                    src="../images/PYMK_Contact_Added.png"
-                    alt="" />
-                </div>
+
               </div>
             </div>
           </div>
