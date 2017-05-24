@@ -11,7 +11,6 @@ class About extends Component {
     render() {
 
       const imgAbout = "images/me.png";
-      const imgMe = "images/khalil.jpg";
 
       return (
 
@@ -88,7 +87,7 @@ class About extends Component {
           </div>
           <div className="khalil-recommendations">
             <div className="tc pv5 b--black-10">
-              <h2 className="f5 fw6 ttu tracked black-60 mb4">Recommendations</h2>
+              <h2 className="f5 fw6 ttu tracked black-60 mb4 sans-serif tracked-mega">Recommendations</h2>
                 <p className="f5 f4-m f3-l lh-copy measure mt0 center">
                 Khalil is an outstanding designer with many skills who use with perfect control.
                 All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.

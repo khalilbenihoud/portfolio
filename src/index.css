@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 
+
+* { box-sizing: border-box; }
+
 body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -56,7 +59,7 @@ body {
 .khalil-intro{
   /* Mask: */
 background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
-background-image: url('../public/images/me.jpg');
+background-image: url('../public/images/me.png');
 background-size:cover;
 
 }
@@ -298,6 +301,15 @@ button:hover:after {
   transition: .7s;
 }
 
+.highlight{
+  color:#357edd;
+}
+
+.highlight:hover{
+  background-color:#fbf1a9;
+}
+
+/*
 .aspect-ratio--16x9 {
     padding-bottom: 46%;
 }
@@ -327,4 +339,4 @@ button:hover:after {
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 
-}
+}*/

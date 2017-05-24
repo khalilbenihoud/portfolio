@@ -12,15 +12,23 @@ class Work extends Component {
       } = this.props;
 
       return (
-        <article className="fl w-100 w-50-l pr2-l pb3">
+
+        <article className="fl w-100 w-50-l br1 pr2-l">
           <Link to={'projects/' + id} className="ph2 ph0-ns pb3 link db">
-            <div className="aspect-ratio aspect-ratio--16x9 hover-img">
-              <img src={projectImage} className="db bg-center cover aspect-ratio--object" alt="" />
-            </div>
-            <h3 className="f5 f4-ns mb0 black-90">{projectTitle}</h3>
-            <p className="f6 f5 fw4 mt2 black-60">{projectDescription}</p>
-          </Link>
+            <img src={projectImage} className="db w-100 br1 " alt="Project image" />
+              <div className="pa2-l ph3-ns p">
+                <div className="dt w-100 mt1">
+                  <div className="dtc">
+                    <h3 className="f5 f4-ns mb0 black-90">{projectTitle}</h3>
+                  </div>
+                </div>
+                <p className="f6 lh-copy measure mt2 mid-gray">
+                  {projectDescription}
+                </p>
+              </div>
+            </Link>
         </article>
+
       )
     }
 }
