@@ -17,15 +17,15 @@ class Projects extends Component {
     render() {
       const project = projects[this.state._id];
 
+
       const list = function (listing) {
         return listing.map((element) => <li>{element}</li>)
       };
-      const imageHeader = project.details.projectImageHeader;
 
       return (
         <section id="" className="cover cf center">
           <div
-            style={{background: 'url('+imageHeader + ') no-repeat center right'}}
+            style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}
             className="imageheader vh-50-l cover ph3 ph4-m ph5-l">
             <Header />
             <div className="projects-top db mw9 center w-100 tc v-mid">
@@ -39,14 +39,18 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="projects-infos db dt-ns mw9 center w-100 ph3 ph4-m ph5-l">
+          <div className="projects-infos db dt-ns mw9 center w-100">
             <div className="serif ph3 ph4-m ph5-l">
               <div className="cf">
-                <article className="pv2 fl w-100 w-60-l pr0 pr2-l sans-serif">
+                <article className="pv2 fl w-100 w-60-l pr0 pr2-l ">
                   <h2 className="f5 f4-ns fw6 mb0 black">
                     Project info
                   </h2>
+<<<<<<< HEAD
                   <p className="f5 pt3 pb3 lh-copy mt0">
+=======
+                  <p className="f5 lh-copy mt0 sans-serif">
+>>>>>>> d520f6565591471785b15750130d4702049966f8
                     {project.details.projectInfo}
                     <br/>
                   </p>
@@ -126,6 +130,7 @@ class Projects extends Component {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
 
         <section className="cf dt-l w-100 center">
           <h3 className="f2 tc">More projects</h3>
@@ -136,16 +141,22 @@ class Projects extends Component {
             </div>
             <div className="fl w-100 w-50-ns cover pv6-l pa5 pa5-ns pa5-l tc" style={{background: 'url('+imageHeader + ') no-repeat center right'}}>
               <Link to="/" className="next f3 overflow-hidden white tc link" title="">
+=======
+        <section className="bg-gray  cf dt-l w-100 ">
+            <div className="f1 fl w-50 cover bg-center pv5  tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
+              <Link to="/" className="overflow-hidden white tc" title="">
+                  {project.projectTitle}
+              </Link>
+            </div>
+            <div className="fl w-50 cover bg-center pv5  pa5 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
+              <Link to="/" className="f1 overflow-hidden white tc" title="">
+>>>>>>> d520f6565591471785b15750130d4702049966f8
                   {project.projectTitle}
               </Link>
             </div>
         </section>
         <Footer />
       </section>
-
-
-
-
 
       )
     }

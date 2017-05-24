@@ -28,8 +28,7 @@
       "projectImage1": "images/spotangels-city-newyork.jpg",
       "projectImage2": "images/spotangels-city-sanfrancisco.jpg",
       "projectImage3": "images/spotangels-businesspage.jpg",
-
-      "projectImage4": "images/spotangels-logo.png",
+      "projectImage4": "",
       "projectTime": "11/09/2016",
       "projectInfo": "SpotAngels is a mapping startup enabling cars to understand cities infrastructure. We start with parking. We build real time parking maps with a spot by spot granularity. We license our data to the automotive industry to help drivers find parking and avoid tickets. We developed a consumer app that saves drivers from parking tickets. Through the app, our community helps us keep the data updated.",
       "projectLink": "http://spotangels.com",
@@ -39,7 +38,7 @@
   },
   "Molotov TV": {
     "projectImage": "images/molotov-bg.jpg",
-    "projectTitle": "molotov",
+    "projectTitle": "Molotov TV",
     "projectDescription": "Molotov TV is a startup working on a seamless, flexible and universal TV service that lets you watch content at your own pace on all your devices — as long as you live in France.",
     "details": {
       "projectImageHeader": "images/influans-bg.png",
@@ -49,7 +48,7 @@
       "projectImage3": "images/job-coach-coach.png",
       "projectImage4": "images/job-coach-coach.png",
       "projectTime": "11/09/2016",
-      "projectInfo": "JobCoach's focus is to help active job seekers to find relevant opportunities (jobs & companies), and assist them to be more effective in the process. The mobile application should be based on what Viadeo already have + some extra features that will make the difference",
+      "projectInfo": "Molotov TV is a startup working on a seamless, flexible and universal TV service that lets you watch content at your own pace on all your devices — as long as you live in France.",
       "projectLink": "http://viadeo.com",
       "projectRole": ["Wireframing","User Experience","User Interface", "Prototyping"],
       "projectTeam":["Michael Lescoutre", "Sandra Laurin","Benihoud Khalil"]
