@@ -21,8 +21,8 @@ class Home extends Component{
                   <h2 className="f4 fw6 f1-l lh-title measure mt0 i">
                   Hello, my name is Khalil 👋🏼
                 </h2>
-                  <p className="f5 f4-ns fw4 b measure dib-m lh-copy">
-                  I am a Product Designer at <a className='link white b grow pointer no-underline ' href="http://www.viadeo.com">Viadeo </a> where I am creating beautiful interfaces & tasty experiences.
+                  <p className="f5 f4-ns fw4 b measure dib-m lh-copy sans-serif">
+                  I am a Product Designer at <a className='link white b grow pointer no-underline' href="http://www.viadeo.com">Viadeo </a> where I am creating beautiful interfaces & tasty experiences.
                   Want to know more <Link to="about" className='link white b grow pointer no-underline '>about me </Link> ?
                   </p>
               </div>

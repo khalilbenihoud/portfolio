@@ -1,6 +1,8 @@
 @import "tachyons.min.css";
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 
 * { box-sizing: border-box; }
@@ -10,6 +12,15 @@ body {
 	-moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
+
+p{
+  font-family: 'Karla', serif;
+}
+
+.box{
+  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+}
+
 
 #Hero{
   background-image: url('../public/images/background.png');

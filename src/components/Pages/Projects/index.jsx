@@ -23,10 +23,8 @@ class Projects extends Component {
       };
 
       return (
-        <section id="" className="cover cf center">
-          <div
-            style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}
-            className="imageheader vh-50-l cover ph3 ph4-m ph5-l">
+        <section id="ProjectDetails" className="cover cf center">
+          <div style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}} className="imageheader vh-50-l cover ph3 ph4-m ph5-l">
             <Header />
             <div className="projects-top db mw9 center w-100 tc v-mid">
               <div className="pb3 pb4-ns pt4 pt4-ns">
@@ -42,15 +40,11 @@ class Projects extends Component {
           <div className="projects-infos db dt-ns mw9 center w-100">
             <div className="serif ph3 ph4-m ph5-l">
               <div className="cf">
-                <article className="pv2 fl w-100 w-60-l pr0 pr2-l ">
-                  <h2 className="f5 f4-ns fw6 mb0 black">
+                <article className="pv4 fl w-100 w-60-l pr0 pr2-l ">
+                  <h2 className="f5 f4-ns fw6  black">
                     Project info
                   </h2>
-<<<<<<< HEAD
-                  <p className="f5 pt3 pb3 lh-copy mt0">
-=======
-                  <p className="f5 lh-copy mt0 sans-serif">
->>>>>>> d520f6565591471785b15750130d4702049966f8
+                  <p className="f5 lh-copy mt0 black-70">
                     {project.details.projectInfo}
                     <br/>
                   </p>
@@ -60,13 +54,13 @@ class Projects extends Component {
                     &#10142; Visit the website
                   </Link>
                 </article>
-                <article className="pv2 fl w-100 w-40-l pr0 pr2-l pl5-l">
-                  <h2 className="f5 f4-ns fw6 mb0 black">Role</h2>
-                  <p className="f6 f5-ns measure lh-copy mt0 list pl0 sans-serif">
+                <article className="pv4 fl w-100 w-40-l pr0 pr2-l pl5-l">
+                  <h2 className="f5 f4-ns fw6 black">Role</h2>
+                  <p className="f6 f5-ns measure lh-copy mt0 list pl0 black-70">
                     {list(project.details.projectRole)}
                   </p>
-                  <h2 className="f5 f4-ns fw6 mb0 black">Team</h2>
-                  <p className="f6 f5-ns measure lh-copy mt0 list pl0 sans-serif">
+                  <h2 className="f5 f4-ns fw6 black">Team</h2>
+                  <p className="f6 f5-ns measure lh-copy mt0 list pl0 black-70">
                     {list(project.details.projectTeam)}
                   </p>
                 </article>
@@ -129,34 +123,24 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-        </div>
-<<<<<<< HEAD
+          </div>
 
-        <section className="cf dt-l w-100 center">
-          <h3 className="f2 tc">More projects</h3>
-            <div className="fl w-100 w-50-ns cover pv6-l pa5 pa5-ns pa5-l tc" style={{background: 'url('+imageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="prev f3 overflow-hidden white tc link" title="">
-                  {project.projectTitle}
+          <section className="cf dt-l w-100">
+            <h3 className="f2-ns tc">More projects</h3>
+
+            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
+              <Link to="/" className="f3 overflow-hidden white tc link" title="">
+                {project.projectTitle}
               </Link>
             </div>
-            <div className="fl w-100 w-50-ns cover pv6-l pa5 pa5-ns pa5-l tc" style={{background: 'url('+imageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="next f3 overflow-hidden white tc link" title="">
-=======
-        <section className="bg-gray  cf dt-l w-100 ">
-            <div className="f1 fl w-50 cover bg-center pv5  tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="overflow-hidden white tc" title="">
-                  {project.projectTitle}
+            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
+              <Link to="/" className="f3 overflow-hidden white tc link" title="">
+                {project.projectTitle}
               </Link>
             </div>
-            <div className="fl w-50 cover bg-center pv5  pa5 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="f1 overflow-hidden white tc" title="">
->>>>>>> d520f6565591471785b15750130d4702049966f8
-                  {project.projectTitle}
-              </Link>
-            </div>
+          </section>
+          <Footer />
         </section>
-        <Footer />
-      </section>
 
       )
     }

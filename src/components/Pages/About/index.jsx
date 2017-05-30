@@ -32,68 +32,65 @@ class About extends Component {
                           </p>
                         </div>
                       </div>
-                      <div className="fl-l w-100 w-50-l">
-                        <div className="pv4">
-                        </div>
-                      </div>
+
                     </div>
                   </div>
                 </div>
             </div>
 
 
-          <div id="khalil-work-awards" className="bg-near-white sans-serif pv4">
+          <div id="khalil-work-awards" className="bg-near-white pv4">
             <div className="mw9 center">
-              <div className="cf">
+              <div className="cf pv4">
                 <div className="fl w-100 w-50-ns pa2">
-                  <div className="pv4 ttu b black-60 tracked-mega">Work</div>
+                  <div className="ttu b black-60 tracked-mega pb4">Work</div>
                   <article className="pv2 fl w-100 pr0 pr2-l">
-                    <time className="f6 db gray ttu sans-serif mb2">June 2015 - Present</time>
-                    <p className="serif">Product Designer</p>
-                    <Link className="link black" to="http://viadeo.com/"><p className="serif b">Viadeo</p></Link>
+                    <time className="f6 db gray ttu mb2">June 2015 - Present</time>
+                    <p>Product Designer</p>
+                    <Link className="link black" to="http://viadeo.com/"><p className="b">Viadeo</p></Link>
                   </article>
                   <article className="pv2 fl w-100 pr0 pr2-l">
-                    <time className="f6 db gray ttu sans-serif mb2">April 2014 - July 2014</time>
-                    <p className="serif">UI Designer & Front-End Developer</p>
-                    <Link className="link black" to="https://www.agence-senzo.fr/"><p className="serif b">Agence Digital Senzo</p></Link>
+                    <time className="f6 db gray ttu mb2">April 2014 - July 2014</time>
+                    <p>UI Designer & Front-End Developer</p>
+                    <Link className="link black" to="https://www.agence-senzo.fr/"><p className="b">Agence Digital Senzo</p></Link>
                   </article>
                   <article className="pv2 fl w-100 pr0 pr2-l">
-                    <time className="f6 db gray ttu sans-serif mb2">June 2013 - September 2013</time>
-                    <p className="serif">UI Designer & Front-End Developer</p>
-                    <Link className="link black" to="http://www.obytes.com/"><p className="serif b">Obytes</p></Link>
+                    <time className="f6 db gray ttu mb2">June 2013 - September 2013</time>
+                    <p>UI Designer & Front-End Developer</p>
+                    <Link className="link black" to="http://www.obytes.com/"><p className="b">Obytes</p></Link>
                   </article>
                 </div>
 
                 <div className="fl w-100 w-50-ns pa2">
-                  <div className="pv4 ttu b black-60 tracked-mega">Honors & Awards</div>
+                  <div className="ttu b black-60 tracked-mega pb4">Honors & Awards</div>
                     <article className="pv2 fl w-100 pr0 pr2-l">
-                      <time className="f6 db gray ttu sans-serif">October 2016</time>
-                      <p className="serif">1st prize "​Special prize by Uber"​</p>
-                      <Link className="link black" to="http://hackthecity.bemyapp.com/"><p className="serif b">Hack The City</p></Link>
+                      <time className="f6 db gray ttu">October 2016</time>
+                      <p>1st prize "​Special prize by Uber"​</p>
+                      <Link className="link black" to="http://hackthecity.bemyapp.com/"><p className="b">Hack The City</p></Link>
                     </article>
                     <article className="pv2 fl w-100 pr0 pr2-l">
-                      <time className="f6 db gray ttu sans-serif">January 2016</time>
-                      <p className="serif">2nd prize</p>
-                      <Link className="link black" to="http://www.latechamienoise.com/pages/swamiens/swamiens2016.html"><p className="serif b">Startup week-end Amiens</p></Link>
+                      <time className="f6 db gray ttu">January 2016</time>
+                      <p>2nd prize</p>
+                      <Link className="link black" to="http://www.latechamienoise.com/pages/swamiens/swamiens2016.html"><p className="b">Startup week-end Amiens</p></Link>
                     </article>
                     <article className="pv2 fl w-100 pr0 pr2-l">
-                      <time className="f6 db gray ttu sans-serif">November 2015</time>
-                      <p className="serif">1st prize</p>
-                      <Link className="link black" to="http://hackthecity.bemyapp.com/"><p className="serif b">Hackathon UTC</p></Link>
+                      <time className="f6 db gray ttu">November 2015</time>
+                      <p>1st prize</p>
+                      <Link className="link black" to="http://hackthecity.bemyapp.com/"><p className="b">Hackathon UTC</p></Link>
                     </article>
                 </div>
               </div>
             </div>
           </div>
           <div className="khalil-recommendations">
-            <div className="tc pv5 b--black-10">
-              <h2 className="f5 fw6 ttu tracked black-60 mb4 sans-serif tracked-mega">Recommendations</h2>
+            <div className="tc pv4 b--black-10">
+              <h4 className="f5 fw6 ttu black-60 tracked-mega pb1">Testimonials</h4>  
                 <p className="f5 f4-m f3-l lh-copy measure mt0 center">
                 Khalil is an outstanding designer with many skills who use with perfect control.
                 All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.
                 It's a real pleasure to work with him, always with the smile ;)
                 </p>
-                <cite className="f6 ttu tracked fs-normal">Marie Dehayes - Head of UX Design <Link className="link black" to="http://viadeo.com/">Viadeo</Link></cite>
+                <cite className="f6 ttu tracked fs-normal black-70">Marie Dehayes - Head of UX Design <a className='link black-70 b grow pointer no-underline' href="http://www.viadeo.com">Viadeo </a></cite>
             </div>
           </div>
           <Contact />
