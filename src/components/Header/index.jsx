@@ -5,7 +5,7 @@ class Header extends Component {
   render(){
     const imgLogo = "images/logo.svg";
     return(
-        <nav className="db dt-ns mw9 center w-100 pv4 nav-link animated fadeInDown">
+        <nav className="db dt-ns mw9 center w-100 pv4 nav-link ">
           <h1>
             <Link to="/" className="db dtc-l v-mid dim w-100 w-25-l tc tl-l mb2 mb0-l" title="Home">
               <img src={imgLogo} class="dib w2 h2 br-100" alt="Site Name" />

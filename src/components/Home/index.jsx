@@ -13,7 +13,7 @@ class Home extends Component{
     const data = require('../../data.json');
 
     return(
-      <main id="Home" className="w-100">
+      <main id="Home" className="w-100 animated fadeIn">
         <section id="Hero" className="cover cf center ph3">
           <Header />
             <div className="db dt-ns mw9 center w-100">
