@@ -50,8 +50,8 @@ class Projects extends Component {
                   </p>
                   <Link
                     to={project.details.projectLink}
-                    className="link black b grow pointer no-underline highlight">
-                    &#10142; Visit the website
+                    className="link black b grow pointer no-underline highlight sans-serif">
+                    &#10142; Visit {project.projectTitle} website
                   </Link>
                 </article>
                 <article className="pv4 fl w-100 w-40-l pr0 pr2-l pl5-l">
@@ -72,28 +72,13 @@ class Projects extends Component {
                     <img className="w-100" src={project.details.projectImageInfo} alt="" />
                   </div>
                 </div>
-                <div className="cf dt-l w-100 pv4">
+                <div className="cf dt-l w-100 pb3">
                   <div className="dtc-l mw9">
                     <img className="w-100" src={project.details.projectImageTop} alt="" />
                   </div>
                 </div>
 
-                <div className="cf dn">
-                  <div className="fl w-100 w-50-l">
-                    <p className="f5 pv4">
-                      During high tides, water would flow directly into the pools from the
-                      nearby ocean, recycling the <span className="db f4 f3-m f1-l fw6 measure lh-title">two million US gallons of water in about an hour. </span>
-                  </p>
-                </div>
-                <div className="fl w-100 w-50-l">
-                  <p className="f5">
-                    During low tides, a powerful turbine water pump,
-                    built inside a cave at sea level, could be switched on from a control
-                    room and could fill the tanks at a rate of 6,000 US gallons a minute,
-                    recycling all the water in five hours.
-                  </p>
-                </div>
-              </div>
+                
               <div className="cf">
                 <div className="fl w-100 w-50-l pr2-l pb3">
                   <img
