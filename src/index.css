@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  margin: 0;
 }
 
 p{
@@ -18,14 +19,19 @@ p{
   box-shadow: 0 20px 20px rgba(0,0,0,.08);
 }
 
-
-#Hero{
-  background-image: url('../public/images/background.png');
-  background-color: #000;
-  height:900px;
-  position: relative;
+.project-box{
+  box-shadow: 0 20px 20px rgba(0,0,0,.08)
 }
 
+
+#Hero{
+  background-image: linear-gradient(-90deg, #7fd4d3 0%, #1c336a 99%);
+  /*background-image: url('../public/images/background.png');*/
+  background-color: #000;
+  /*height:650px;*/
+  position: relative;
+}
+/*
 #Hero:after{
   content: '';
   display: block;
@@ -37,7 +43,7 @@ p{
   transform: skewY(-4deg);
   bottom: -12%;
   left: 0;
-}
+}*/
 
 #Projects{
   background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
@@ -67,7 +73,6 @@ p{
 .khalil-intro{
   /* Mask: */
 background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
-background-image: url('../public/images/me.png');
 background-size:cover;
 
 }

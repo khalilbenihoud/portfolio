@@ -11,6 +11,7 @@ class About extends Component {
     render() {
 
       const imgAbout = "images/me.png";
+      const imgTestimonials = "images/marie.png";
 
       return (
 
@@ -19,7 +20,7 @@ class About extends Component {
               <Header />
                 <div className="db dt-ns mw9 center w-100">
                   <div className="mw9 center">
-                    <div className="cf ">
+                    <div className="cf">
                       <div className="fl w-100 w-50-ns">
                         <div className="pv4">
                           <h2 className="f4 fw6 f1-ns white lh-title measure mt0 i">
@@ -39,44 +40,44 @@ class About extends Component {
             </div>
 
 
-          <div id="khalil-work-awards" className="bg-near-white pv4">
+          <div id="khalil-work-awards" className="bg-near-white pv4 ph3">
             <div className="mw9 center">
               <div className="cf pv4">
-                <div className="fl w-100 w-50-ns pa2">
+                <div className="fl w-100 w-50-ns">
                   <div className="ttu b black-60 tracked-mega pb4">Work</div>
                   <article className="pv2 fl w-100 pr0 pr2-l">
                     <time className="f6 db gray ttu mb2">June 2015 - Present</time>
                     <p>Product Designer</p>
-                    <Link className="link black" to="http://viadeo.com/"><p className="b">Viadeo</p></Link>
+                    <a className="link black" href="http://viadeo.com/"><p className="b">Viadeo</p></a>
                   </article>
                   <article className="pv2 fl w-100 pr0 pr2-l">
                     <time className="f6 db gray ttu mb2">April 2014 - July 2014</time>
                     <p>UI Designer & Front-End Developer</p>
-                    <Link className="link black" to="https://www.agence-senzo.fr/"><p className="b">Agence Digital Senzo</p></Link>
+                    <a className="link black" href="https://www.agence-senzo.fr/"><p className="b">Agence Digital Senzo</p></a>
                   </article>
                   <article className="pv2 fl w-100 pr0 pr2-l">
                     <time className="f6 db gray ttu mb2">June 2013 - September 2013</time>
                     <p>UI Designer & Front-End Developer</p>
-                    <Link className="link black" to="http://www.obytes.com/"><p className="b">Obytes</p></Link>
+                    <a className="link black" href="http://www.obytes.com/"><p className="b">Obytes</p></a>
                   </article>
                 </div>
 
-                <div className="fl w-100 w-50-ns pa2">
+                <div className="fl w-100 w-50-ns">
                   <div className="ttu b black-60 tracked-mega pb4">Honors & Awards</div>
                     <article className="pv2 fl w-100 pr0 pr2-l">
                       <time className="f6 db gray ttu">October 2016</time>
                       <p>1st prize "​Special prize by Uber"​</p>
-                      <Link className="link black" to="http://hackthecity.bemyapp.com/"><p className="b">Hack The City</p></Link>
+                      <a className="link black" href="http://hackthecity.bemyapp.com/"><p className="b">Hack The City</p></a>
                     </article>
                     <article className="pv2 fl w-100 pr0 pr2-l">
                       <time className="f6 db gray ttu">January 2016</time>
                       <p>2nd prize</p>
-                      <Link className="link black" to="http://www.latechamienoise.com/pages/swamiens/swamiens2016.html"><p className="b">Startup week-end Amiens</p></Link>
+                      <a className="link black" href="http://www.latechamienoise.com/pages/swamiens/swamiens2016.html"><p className="b">Startup week-end Amiens</p></a>
                     </article>
                     <article className="pv2 fl w-100 pr0 pr2-l">
                       <time className="f6 db gray ttu">November 2015</time>
                       <p>1st prize</p>
-                      <Link className="link black" to="http://hackthecity.bemyapp.com/"><p className="b">Hackathon UTC</p></Link>
+                      <a className="link black" href="http://hackthecity.bemyapp.com/"><p className="b">Hackathon UTC</p></a>
                     </article>
                 </div>
               </div>
@@ -84,12 +85,13 @@ class About extends Component {
           </div>
           <div className="khalil-recommendations">
             <div className="tc pv4 b--black-10">
-              <h4 className="f5 fw6 ttu black-60 tracked-mega pb1">Testimonials</h4>  
+              <h4 className="f5 fw6 ttu black-60 tracked-mega pb1">Testimonials</h4>
                 <p className="f5 f4-m f3-l lh-copy measure mt0 center">
                 Khalil is an outstanding designer with many skills who use with perfect control.
                 All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.
                 It's a real pleasure to work with him, always with the smile ;)
                 </p>
+                <img src={imgTestimonials} alt="testimonials" /><br/>
                 <cite className="f6 ttu tracked fs-normal black-70">Marie Dehayes - Head of UX Design <a className='link black-70 b grow pointer no-underline' href="http://www.viadeo.com">Viadeo </a></cite>
             </div>
           </div>

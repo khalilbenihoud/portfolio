@@ -78,7 +78,7 @@ class Projects extends Component {
                   </div>
                 </div>
 
-                
+
               <div className="cf">
                 <div className="fl w-100 w-50-l pr2-l pb3">
                   <img
@@ -113,12 +113,12 @@ class Projects extends Component {
           <section className="cf dt-l w-100">
             <h3 className="f2-ns tc">More projects</h3>
 
-            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
+            <div className="fl w-100 w-50-ns cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
               <Link to="/" className="f3 overflow-hidden white tc link" title="">
                 {project.projectTitle}
               </Link>
             </div>
-            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
+            <div className="fl w-100 w-50-ns cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
               <Link to="/" className="f3 overflow-hidden white tc link" title="">
                 {project.projectTitle}
               </Link>
