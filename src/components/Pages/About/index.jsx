@@ -11,7 +11,7 @@ class About extends Component {
     render() {
 
       const imgAbout = "images/me.png";
-
+      const imgTestimonials = "images/marie.png"
       return (
 
           <section id="About-Khalil" className="">
@@ -23,9 +23,9 @@ class About extends Component {
                       <div className="fl w-100 w-50-ns">
                         <div className="pv4">
                           <h2 className="f4 fw6 f1-ns white lh-title measure mt0 i">
-                            Husband of 2. Father of 1👋🏼
+                            Human. Creative. Workaholic.
                           </h2>
-                          <p className="f5 f4-ns fw4 b measure dib-m white-80 lh-copy pb6">
+                          <p className="f5 f4-ns fw4 b measure-wide dib-m white-70 lh-copy pb6">
                                 Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
                                 passionate about traveling, design, new technologies.
                                 In addition to my technical skills, I am adaptable, cheerful and love to be a part of building world class products.
@@ -84,12 +84,13 @@ class About extends Component {
           </div>
           <div className="khalil-recommendations">
             <div className="tc pv4 b--black-10">
-              <h4 className="f5 fw6 ttu black-60 tracked-mega pb1">Testimonials</h4>  
+              <h4 className="f5 fw6 ttu black-60 tracked-mega pb1">Testimonials</h4>
                 <p className="f5 f4-m f3-l lh-copy measure mt0 center">
                 Khalil is an outstanding designer with many skills who use with perfect control.
                 All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.
                 It's a real pleasure to work with him, always with the smile ;)
                 </p>
+                <img src={imgTestimonials} alt="testimonials" /><br/>
                 <cite className="f6 ttu tracked fs-normal black-70">Marie Dehayes - Head of UX Design <a className='link black-70 b grow pointer no-underline' href="http://www.viadeo.com">Viadeo </a></cite>
             </div>
           </div>
