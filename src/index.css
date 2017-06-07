@@ -1,6 +1,11 @@
 @import "tachyons.min.css";
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Chivo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600');
+
+
+
 
 * { box-sizing: border-box; }
 
@@ -10,22 +15,38 @@ body {
   overflow-x: hidden;
 }
 
-p{
-  font-family: 'Karla', serif;
+h2,h3,p, a{
+  /*font-family: 'Roboto', sans-serif;*/
+  /*font-family: 'Poppins', sans-serif;*/
+  /*font-family: 'Chivo', sans-serif;*/
+  /*font-family: 'Rubik', sans-serif;*/
+  font-family: 'Work Sans', sans-serif;
 }
 
 .box{
   box-shadow: 0 20px 20px rgba(0,0,0,.08);
 }
 
-
-#Hero{
-  background-image: url('../public/images/background.png');
-  background-color: #000;
-  height:900px;
-  position: relative;
+.head,h2{
+  /*color:#3f515d;*/
+  color:white;
 }
 
+.title{
+  margin-right:300px;
+}
+
+#Hero{
+  /*background-image: url('../public/images/background-marble.png');*/
+  /*background-color: #000;*/
+  /*background-color: #F4F4F4;*/
+  /*background-image: linear-gradient(192deg,#51557d,#222d49);*/
+  background-image: linear-gradient(192deg,#32B6AA,#86D7D0);
+  /*background-image: linear-gradient(100grad,rgba(0,119,204,0),rgba(0,119,204,.05) 40%,rgba(0,119,204,.35));*/
+  /*height:900px;*/
+  /*position: relative;*/
+}
+/*
 #Hero:after{
   content: '';
   display: block;
@@ -37,7 +58,7 @@ p{
   transform: skewY(-4deg);
   bottom: -12%;
   left: 0;
-}
+}*/
 
 #Projects{
   background-image: linear-gradient(-90deg, #2C3E50 0%, #4CA1AF 99%);
@@ -102,38 +123,24 @@ background-size:cover;
 #khalil-work-awards{
   position:relative;
 }*/
-
+/*
 h2{
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
   color: #FFFFFF;
   line-height: 39px;
-}
-
-#Home p{
-  font-family: 'Karla', serif;
-}
-
-#About-Me p{
-  font-family: 'Karla', serif;
-  font-weight: 400;
-}
-
-h3{
-  font-family: 'Playfair Display', serif;
-  font-size: 38px;
-}
+}*/
 
 
 .nav-link{
   font-family: 'Karla', serif;
-  font-size: 14px !important;
+  /*font-size: 14px !important;*/
 }
 
 .hire{
   font-family: 'Karla', serif;
   color:white;
-  font-size: 14px;
+  /*font-size: 14px;*/
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight:700;
@@ -141,11 +148,11 @@ h3{
   width: 215px;
   background-color:#C42E40;
 }
-
+/*
 .work{
   position:relative;
-  margin-top:-420px;
-}
+  margin-top:-460px;
+}*/
 
 .hover-img{
   -webkit-transition: ease .4s;
@@ -169,7 +176,7 @@ h3{
 }
 
 .f6 {
-    font-size: 1rem;
+    /*font-size: 1rem;*/
     line-height: 1.8;
 }
 

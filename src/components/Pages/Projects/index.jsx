@@ -31,7 +31,7 @@ class Projects extends Component {
                 <time className="f5 f4-l db fw1 baskerville white-70 mb2">
                   {project.details.projectTime}
                 </time>
-                <h2 className="tc f1 lh-title mt0 i v-mid">
+                <h2 className="tc f1 lh-title mt0 v-mid">
                   {project.projectTitle}
                 </h2>
               </div>
@@ -78,7 +78,7 @@ class Projects extends Component {
                   </div>
                 </div>
 
-                
+
               <div className="cf">
                 <div className="fl w-100 w-50-l pr2-l pb3">
                   <img

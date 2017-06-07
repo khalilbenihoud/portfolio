@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import Anime from 'react-anime';
 
-import './index.css';
+import './index.css'
 import './animate.min.css'
 
 import Home from './components/Home'

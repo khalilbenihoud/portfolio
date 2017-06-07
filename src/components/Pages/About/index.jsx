@@ -12,6 +12,7 @@ class About extends Component {
 
       const imgAbout = "images/me.png";
       const imgTestimonials = "images/marie.png"
+      const imgQuote = "images/quote.svg"
       return (
 
           <section id="About-Khalil" className="">
@@ -22,7 +23,7 @@ class About extends Component {
                     <div className="cf ">
                       <div className="fl w-100 w-50-ns">
                         <div className="pv4">
-                          <h2 className="f4 fw6 f1-ns white lh-title measure mt0 i">
+                          <h2 className="f4 fw6 f1-ns white lh-title measure mt0">
                             Human. Creative. Workaholic.
                           </h2>
                           <p className="f5 f4-ns fw4 b measure-wide dib-m white-70 lh-copy pb6">
@@ -84,13 +85,13 @@ class About extends Component {
           </div>
           <div className="khalil-recommendations">
             <div className="tc pv4 b--black-10">
-              <h4 className="f5 fw6 ttu black-60 tracked-mega pb1">Testimonials</h4>
-                <p className="f5 f4-m f3-l lh-copy measure mt0 center">
-                Khalil is an outstanding designer with many skills who use with perfect control.
-                All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.
-                It's a real pleasure to work with him, always with the smile ;)
-                </p>
                 <img src={imgTestimonials} alt="testimonials" /><br/>
+
+                <p className="f5 f4-m f4-l lh-copy measure-wide mt0 center">
+                &#34;Khalil is an outstanding designer with many skills who use with perfect control.
+                All the day, he have lot of proposals for creating UI and UX interface with clean and fresh design.
+                It's a real pleasure to work with him, always with the smile ;)&#34;
+                </p>
                 <cite className="f6 ttu tracked fs-normal black-70">Marie Dehayes - Head of UX Design <a className='link black-70 b grow pointer no-underline' href="http://www.viadeo.com">Viadeo </a></cite>
             </div>
           </div>
