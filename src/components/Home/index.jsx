@@ -14,20 +14,20 @@ class Home extends Component{
 
     return(
       <main id="Home" className="w-100 animated fadeIn">
-        <section id="Hero" className="cover cf center ph3 vh-70">
+        <section id="Hero" className="cover cf center ph3 vh-100">
           <Header />
-            <div className="db dt-ns mw9 center w-100 mt4">
+            <div className="db dt-ns mw8 center w-100 mt4">
+              <div className="v-mid dtc">
                 <div className="pb3 pb4-ns pt4 pt4-ns white">
-                  <h2 className="f3 f1-ns f3-m fw5 lh-title measure mt0">
-                  Hello, my name is Khalil !
-                </h2>
-                  <p className="f5 f4-ns f4-m fw5 white-90 measure-wide dib-m lh-copy">
-                    I am a Product Designer from Paris. Currently working at Viadeo on exciting projects. Oh, I am also accepting <span className="b white">freelance</span> projects for Web & mobile.
-                  </p>
+                  <h2 className="f3 f1-ns f3-m fw5 lh-title measure">
+                    Passionate Designer. Longboarder wannabe.
+                  </h2>
+                  <p className="f5 f4-ns fw4 b dib-m lh-copy">Oh hey, my name is Benihoud Khalil. I am here to help you build your digital product.</p>
+                </div>
               </div>
             </div>
         </section>
-        <section id="Werk" className="db dt-ns mw9 center w-100 overflow-hidden work">
+        <section id="Werk" className="db dt-ns mw8 center w-100 overflow-hidden work">
           <div className="mw9 center">
             <div className="cf">
               <div className="fl w-20 pb3 pb4-ns pt4 pt4-ns">
