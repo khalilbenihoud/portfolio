@@ -11,9 +11,9 @@ class Header extends Component {
               <img src={imgLogo} class="dib w2 h2 br-100 dark-gray" alt="Site Name" />
             </Link>
           </h1>
-          <Link className="link dim black-70 fw5 f5 f5-ns dib mr3" to="#" title="Home">Home</Link>
-          <Link className="link dim black-70 fw5 f5 f5-ns dib mr3" to="/profile" title="About">Profile</Link>
-          <Link className="link dim black-70 fw5 f5 f5-ns dib" to="/contact" title="Contact">Get in touch</Link>
+          <Link className="link dim white-70 fw5 f5 f5-ns dib mr3" to="#" title="Home">Home</Link>
+          <Link className="link dim white-70 fw5 f5 f5-ns dib mr3" to="/profile" title="About">Profile</Link>
+          <Link className="link dim white-70 fw5 f5 f5-ns dib" to="/contact" title="Contact">Get in touch</Link>
         </nav>
     )
   }

@@ -22,7 +22,7 @@ class Home extends Component{
                   <h2 className="f3 f1-ns f3-m fw5 lh-title measure">
                     Passionate Designer. Longboarder wannabe.
                   </h2>
-                  <p className="f5 f4-ns fw4 b dib-m lh-copy">Oh hey, my name is Benihoud Khalil. I am here to help you build your digital product.</p>
+                  <p className="f5 f4-ns fw4 b dib-m lh-copy white-70">Oh hey, my name is Benihoud Khalil. I am here to help you build your digital product.</p>
                 </div>
               </div>
             </div>

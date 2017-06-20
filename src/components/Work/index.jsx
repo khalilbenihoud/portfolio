@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
-import Anime from 'react-anime';
 
 class Work extends Component {
     render() {
