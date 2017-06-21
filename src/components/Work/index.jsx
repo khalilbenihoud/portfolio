@@ -12,18 +12,18 @@ class Work extends Component {
       } = this.props;
 
       return (
-        <article className="mw8 center">
-          <Link to={'projects/' + id} className="db pv4 ph3 ph0-l no-underline black dim link" >
-            <div className="flex flex-column flex-row-ns">
-              <div className="pr3-ns mb4 mb0-ns w-100 w-100-ns">
-                <img src={projectImage} className="db mw9" alt="Photo of a dimly lit room with a computer interface terminal." />
+        <article className="cf fl w-100 w-100-ns mt4">
+          <Link to={'projects/' + id} className="db link">
+            <img src={projectImage} className="w-100 db  hover-img" alt="Photo of a kitten looking menacing." />
+            <div className="pa3 ph3-ns pb3-ns tc">
+              <div className="dt w-100 mt1 ">
+                <div className="dtc">
+                  <h3 className="f2 f2-ns mv0">{projectTitle}</h3>
+                </div>
               </div>
-              <div className="w-100 w-100-ns pl3-ns">
-                <h3 className="f1 mv0">{projectTitle}</h3>
-                <p className="f6 f5-l lh-copy">
-                  {projectDescription}
-                </p>
-              </div>
+              <p className="f5  mid-gray">
+                {projectDescription}
+              </p>
             </div>
           </Link>
         </article>

@@ -19,10 +19,10 @@ class Home extends Component{
             <div className="db dt-ns mw8 center w-100 mt4">
               <div className="v-mid dtc">
                 <div className="pb3 pb4-ns pt4 pt4-ns white">
-                  <h2 className="f3 f1-ns f3-m fw5 lh-title measure">
-                    Passionate Designer. Longboarder wannabe.
+                  <h2 className="f3 f1-ns f3-m fw7 lh-title measure">
+                    Benihoud Khalil.
                   </h2>
-                  <p className="f5 f4-ns fw4 b dib-m lh-copy white-70">Oh hey, my name is Benihoud Khalil. I am here to help you build your digital product.</p>
+                  <p className="f5 f4-ns fw4 b dib-m lh-copy white-70">Hi, I am a Product designer building great products with great people.</p>
                 </div>
               </div>
             </div>
@@ -30,8 +30,8 @@ class Home extends Component{
         <section id="Werk" className="db dt-ns mw8 center w-100 overflow-hidden work">
           <div className="mw9 center">
             <div className="cf">
-              <div className="fl w-20 pb3 pb4-ns pt4 pt4-ns">
-                <h3 className="f3 f1-ns f3-m fw2 lh-title measure mt0 mt4 black-30">Selected works</h3>
+              <div className="fl w-20 pb3 pb4-ns pt4 pt4-ns ">
+                <h3 className="f1-ns f3 fw2 lh-title measure mt0 mt4 black-30 pl3-m pl3-ns">Selected works</h3>
               </div>
 
             </div>

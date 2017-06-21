@@ -18,7 +18,7 @@ body {
 h2,h3,p, a{
   /*font-family: 'Roboto', sans-serif;*/
   /*font-family: 'Poppins', sans-serif;*/
-  /*font-family: 'Chivo', sans-serif;*/
+  font-family: 'Chivo', sans-serif;
   /*font-family: 'Rubik', sans-serif;*/
   /*font-family: 'Work Sans', sans-serif;*/
   /*color:#7E7B70;*/
@@ -56,6 +56,10 @@ h2,h3,p, a{
   /*background-image: linear-gradient(100grad,rgba(0,119,204,0),rgba(0,119,204,.05) 40%,rgba(0,119,204,.35));*/
   /*height:900px;*/
   /*position: relative;*/
+}
+
+#Werk{
+  margin-top:-400px;
 }
 /*
 #Hero:after{

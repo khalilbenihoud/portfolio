@@ -24,9 +24,9 @@ class Projects extends Component {
 
       return (
         <section id="ProjectDetails" className="cover cf center animated fadeIn">
-          <div style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}} className="imageheader vh-50-l cover ph3 ph4-m ph5-l">
+          <div style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}} className="imageheader vh-100 cover ph3 ph4-m ph5-l">
             <Header />
-            <div className="projects-top db mw9 center w-100 tc v-mid">
+            <div className="projects-top db mw9 center w-100 tc v-mid ">
               <div className="pb3 pb4-ns pt4 pt4-ns">
                 <time className="f5 f4-l db fw1 baskerville white-70 mb2">
                   {project.details.projectTime}
