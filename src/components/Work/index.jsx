@@ -18,7 +18,7 @@ class Work extends Component {
             <div className="pa3 ph3-ns pb3-ns tc">
               <div className="dt w-100 mt1 ">
                 <div className="dtc">
-                  <h3 className="f2 f2-ns mv0">{projectTitle}</h3>
+                  <h3 className="f2 f2-ns mv0 black-80">{projectTitle}</h3>
                 </div>
               </div>
               <p className="f5  mid-gray">

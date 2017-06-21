@@ -44,6 +44,8 @@ h2,h3,p, a{
   /*background-image: url('../public/images/background-marble.png');*/
   /*background-image: url('../public/images/picture.jpg');*/
   background-image: url('../public/images/background.svg');
+  background-repeat: no-repeat;
+  background-size:cover;
   /*background-color: #000;*/
   /*background-color: #F4F4F4;*/
   /*background-image: linear-gradient(192deg,#51557d,#222d49);*/
@@ -59,7 +61,7 @@ h2,h3,p, a{
 }
 
 #Werk{
-  margin-top:-400px;
+  /*margin-top:-400px;*/
 }
 /*
 #Hero:after{

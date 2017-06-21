@@ -14,7 +14,7 @@ class Home extends Component{
 
     return(
       <main id="Home" className="w-100 animated fadeIn">
-        <section id="Hero" className="cover cf center ph3 vh-100">
+        <section id="Hero" className=" cf center ph3 vh-50 vh-100-ns">
           <Header />
             <div className="db dt-ns mw8 center w-100 mt4">
               <div className="v-mid dtc">
@@ -27,13 +27,15 @@ class Home extends Component{
               </div>
             </div>
         </section>
-        <section id="Werk" className="db dt-ns mw8 center w-100 overflow-hidden work">
-          <div className="mw9 center">
-            <div className="cf">
-              <div className="fl w-20 pb3 pb4-ns pt4 pt4-ns ">
-                <h3 className="f1-ns f3 fw2 lh-title measure mt0 mt4 black-30 pl3-m pl3-ns">Selected works</h3>
-              </div>
 
+        <section id="Werk" className="db dt-ns mw8 center ph3 w-100 overflow-hidden work">
+          <div className="db dt-ns mw8 center w-100 mt4">
+            <div className="v-mid dtc">
+              <div className="pb3 pb4-ns pt4 pt4-ns">
+                <h2 className="f3 f1-ns f3-m fw5 w-10-ns pr3-ns  lh-title measure black-30">
+                  Selected Works
+                </h2>
+              </div>
             </div>
           </div>
               {_.map(data, (work, key) => {

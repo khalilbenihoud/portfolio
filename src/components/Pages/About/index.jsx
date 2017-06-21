@@ -18,12 +18,12 @@ class About extends Component {
           <section id="About-Khalil" className="">
             <div className="khalil-intro cover cf bg-mid-gray center ph3">
               <Header />
-                <div className="db dt-ns mw9 center w-100">
+                <div className="db dt-ns mw8 center w-100">
                   <div className="mw9 center">
                     <div className="cf ">
                       <div className="fl w-100 w-50-ns">
                         <div className="pv4">
-                          <h2 className="f4 fw6 f1-ns white lh-title measure mt0">
+                          <h2 className="f4 fw6 f1-ns white lh-title measure-wide mt0">
                             Human. Creative. Workaholic.
                           </h2>
                           <p className="f5 f4-ns fw4 b measure-wide dib-m white-70 lh-copy pb6">
@@ -41,7 +41,7 @@ class About extends Component {
 
 
           <div id="khalil-work-awards" className="bg-near-white pv4">
-            <div className="mw9 center">
+            <div className="mw8 center">
               <div className="cf pv4">
                 <div className="fl w-100 w-50-ns pa2">
                   <div className="ttu b black-60 tracked-mega pb4">Work</div>

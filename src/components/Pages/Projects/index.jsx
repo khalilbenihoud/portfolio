@@ -37,8 +37,8 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="projects-infos db dt-ns mw9 center w-100">
-            <div className="serif ph3 ph4-m ph5-l">
+          <div className="projects-infos db dt-ns mw8 center w-100">
+            <div className="serif ">
               <div className="cf">
                 <article className="pv4 fl w-100 w-60-l pr0 pr2-l ">
                   <h2 className="f5 f4-ns fw6  black">
