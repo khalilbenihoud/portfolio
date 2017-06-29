@@ -15,27 +15,26 @@ class About extends Component {
       const imgQuote = "images/quote.svg"
       return (
 
+
+
+
           <section id="About-Khalil" className="">
-            <div className="khalil-intro cover cf bg-mid-gray center ph3">
+
+            <div className="khalil-intro cover cf bg-mid-gray center ph3  vh-100-ns vh-100-l">
               <Header />
                 <div className="db dt-ns mw8 center w-100">
-                  <div className="mw9 center">
-                    <div className="cf ">
-                      <div className="fl w-100 w-50-ns">
-                        <div className="pv4">
-                          <h2 className="f4 fw6 f1-ns white lh-title measure-wide mt0">
+                    <div className="cf">
+                      <div className="dt w-100 dtc v-mid cover ">
+                          <h2 className="f3 f1-ns f3-m fw7 lh-title measure-wide white">
                             Human. Creative. Workaholic.
                           </h2>
-                          <p className="f5 f4-ns fw4 b measure-wide dib-m white-70 lh-copy pb6">
+                          <p className="f3-ns lh-title white-70 measure">
                                 Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
                                 passionate about traveling, design, new technologies.
                                 In addition to my technical skills, I am adaptable, cheerful and love to be a part of building world class products.
                           </p>
-                        </div>
                       </div>
-
                     </div>
-                  </div>
                 </div>
             </div>
 

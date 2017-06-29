@@ -23,24 +23,33 @@ class Projects extends Component {
       };
 
       return (
-        <section id="ProjectDetails" className="cover cf center animated fadeIn">
-          <div style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}} className="imageheader vh-100 cover ph3 ph4-m ph5-l">
-            <Header />
-            <div className="projects-top db mw9 center w-100 tc v-mid ">
-              <div className="pb3 pb4-ns pt4 pt4-ns">
-                <time className="f5 f4-l db fw1 baskerville white-70 mb2">
-                  {project.details.projectTime}
-                </time>
-                <h2 className="tc f1 lh-title mt0 v-mid">
-                  {project.projectTitle}
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="projects-infos db dt-ns mw8 center w-100">
-            <div className="serif ">
+        <section id="ProjectDetails" className="cover cf center">
+
+
+
+          <div className="cover bg-left bg-center-l dt w-100 vh-75" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
+            <div className="pb5 pb6-m pb7-l">
+              <nav className="dt w-100 mw8 center">
+                <div className="dtc w2 v-mid pa3">
+                  <Header />
+                        </div>
+                      </nav>
+                      <div className="tc-l mt4 mt5-m mt6-l ph3">
+                        <time className="f5 f4-l db fw1 baskerville white-70 mb2 tc">
+                          {project.details.projectTime}
+                        </time>
+                        <h2 className="tc f1 lh-title mt0 v-mid">
+                          {project.projectTitle}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+
+
+          <div className="projects-infos db dt-ns mw8 center w-100 ph3">
+            <div className="serif">
               <div className="cf">
-                <article className="pv4 fl w-100 w-60-l pr0 pr2-l ">
+                <article className="pv4 fl w-100 w-60-l pr0 pr2-l">
                   <h2 className="f5 f4-ns fw6  black">
                     Project info
                   </h2>
@@ -48,19 +57,19 @@ class Projects extends Component {
                     {project.details.projectInfo}
                     <br/>
                   </p>
-                  <Link
-                    to={project.details.projectLink}
+                  <a
+                    href={project.details.projectLink}
                     className="link black b grow pointer no-underline highlight sans-serif">
                     &#10142; Visit {project.projectTitle} website
-                  </Link>
+                  </a>
                 </article>
                 <article className="pv4 fl w-100 w-40-l pr0 pr2-l pl5-l">
                   <h2 className="f5 f4-ns fw6 black">Role</h2>
-                  <p className="f6 f5-ns measure lh-copy mt0 list pl0 black-70">
+                  <p className="f5 lh-copy mt0 black-70 list">
                     {list(project.details.projectRole)}
                   </p>
                   <h2 className="f5 f4-ns fw6 black">Team</h2>
-                  <p className="f6 f5-ns measure lh-copy mt0 list pl0 black-70">
+                  <p className="f5 lh-copy mt0 black-70 list">
                     {list(project.details.projectTeam)}
                   </p>
                 </article>
@@ -86,25 +95,24 @@ class Projects extends Component {
                     src={project.details.projectImage1}
                     alt="" />
                 </div>
-                <div className="fl w-100 w-50-l pr1 pr0-l pl2-l pb3">
+                <div className="fl w-100 w-50-l pr1-ns pr0-l pl2-l pb3">
                   <img
                     className="db w-100"
                     src={project.details.projectImage2}
                     alt="" />
                 </div>
-                <div className="fl w-100 w-100-l pl2 pl0-l pr2-l pb3">
-                  <img
-                    className="db w-100"
-                    src={project.details.projectImage3}
-                    alt="" />
+                <div className="f5 f3-m lh-copy">
+                  <div className="cf dt-l w-100">
+                    <div className="dtc-l mw9 pb3">
+                      <img className="w-100" src={project.details.projectImage3} alt="" />
+                    </div>
+                  </div>
+                  <div className="cf dt-l w-100 pb3">
+                    <div className="dtc-l mw9">
+                      <img className="w-100" src={project.details.projectImage4} alt="" />
+                    </div>
+                  </div>
                 </div>
-                <div className="fl w-100 w-100-l pl2 pl0-l pr2-l pb3">
-                  <img
-                    className="db w-100"
-                    src={project.details.projectImage4}
-                    alt="" />
-                </div>
-
               </div>
             </div>
           </div>
@@ -112,7 +120,6 @@ class Projects extends Component {
 
           <section className="cf dt-l w-100">
             <h3 className="f2-ns tc">More projects</h3>
-
             <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
               <Link to="/" className="f3 overflow-hidden white tc link" title="">
                 {project.projectTitle}

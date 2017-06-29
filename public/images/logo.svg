@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="40px" height="34px" viewBox="0 0 40 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.458474864" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <path d="M500.827347,339.094255 L514.213616,339.094255 C514.213616,331.542733 508.281244,325.378378 500.827347,325.016769 L500.827347,339.094255 Z M498.011312,339.094255 L489,339.094255 L489,325 L498.011312,325 L498.011312,339.094255 Z M501.108951,357.738235 C502.336242,358.041358 503.619532,358.202164 504.940351,358.202164 L529,358.202164 C529,349.388567 521.863525,342.244212 513.059649,342.244212 L501.108951,342.244212 L501.108951,357.738235 Z M498.011312,356.619826 C492.678379,354.039044 489,348.57182 489,342.244212 L498.011312,342.244212 L498.011312,356.619826 Z" id="path-2"></path>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-3-Copy" transform="translate(-179.000000, -841.000000)" fill="#FFFFFF">
-            <path d="M190.827347,855.806466 L204.213616,855.806466 C204.213616,848.254944 198.281244,842.090589 190.827347,841.72898 L190.827347,855.806466 Z M188.011312,855.806466 L179,855.806466 L179,841.712211 L188.011312,841.712211 L188.011312,855.806466 Z M191.108951,874.450446 C192.336242,874.753569 193.619532,874.914375 194.940351,874.914375 L219,874.914375 C219,866.100778 211.863525,858.956423 203.059649,858.956423 L191.108951,858.956423 L191.108951,874.450446 Z M188.011312,873.332037 C182.678379,870.751255 179,865.284031 179,858.956423 L188.011312,858.956423 L188.011312,873.332037 Z" id="Combined-Shape"></path>
+        <g id="Desktop" transform="translate(-489.000000, -325.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.300000012" xlink:href="#path-2"></use>
         </g>
     </g>
 </svg>

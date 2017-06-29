@@ -16,9 +16,9 @@ body {
 }
 
 h2,h3,p, a{
-  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
   /*font-family: 'Poppins', sans-serif;*/
-  font-family: 'Chivo', sans-serif;
+  /*font-family: 'Chivo', sans-serif;*/
   /*font-family: 'Rubik', sans-serif;*/
   /*font-family: 'Work Sans', sans-serif;*/
   /*color:#7E7B70;*/
@@ -43,9 +43,11 @@ h2,h3,p, a{
 #Hero{
   /*background-image: url('../public/images/background-marble.png');*/
   /*background-image: url('../public/images/picture.jpg');*/
-  background-image: url('../public/images/background.svg');
+  /*background-image: url('../public/images/background.svg');*/
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:contain;
+  background-color: #F4F4F4;
+  background-position: bottom;
   /*background-color: #000;*/
   /*background-color: #F4F4F4;*/
   /*background-image: linear-gradient(192deg,#51557d,#222d49);*/
@@ -58,6 +60,21 @@ h2,h3,p, a{
   /*background-image: linear-gradient(100grad,rgba(0,119,204,0),rgba(0,119,204,.05) 40%,rgba(0,119,204,.35));*/
   /*height:900px;*/
   /*position: relative;*/
+}
+
+
+.bouncing {
+  animation: 2s ease 0s normal none infinite running bounce;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
+.bounce {
+    animation-name: bounce;
 }
 
 #Werk{
