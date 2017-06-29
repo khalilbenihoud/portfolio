@@ -1,23 +1,4 @@
 {
-  "jobcoach": {
-    "projectImage": "images/job-coach-bg.jpg",
-    "projectTitle": "JobCoach",
-    "projectDescription": "Mobile application to help active job seekers find relevant opportunities through an assistant.",
-    "details": {
-      "projectTime": "11/09/2016",
-      "projectImageHeader": "images/influans-bg.png",
-      "projectImageInfo": "images/job-coach-presentation.png",
-      "projectImageTop": "images/job-coach-guidelines.png",
-      "projectImage1": "images/job-coach-login.png",
-      "projectImage2": "images/job-coach-password.png",
-      "projectImage3": "images/job-coach-coach.png",
-      "projectImage4": "images/job-coach-joboffers.png",
-      "projectInfo": "JobCoach's focus is to help active job seekers to find relevant opportunities (jobs & companies), and assist them to be more effective in the process. The mobile application should be based on what Viadeo already have + some extra features that will make the difference",
-      "projectLink": "http://viadeo.com",
-      "projectRole": ["Wireframing","User Experience","User Interface", "Prototyping"],
-      "projectTeam":["Michael Lescoutre", "Sandra Laurin","Benihoud Khalil"]
-    }
-  },
   "SpotAngels": {
     "projectImage": "images/spotangels-bg.jpg",
     "projectTitle": "SpotAngels",
@@ -37,6 +18,25 @@
       "projectTeam":["Benihoud Khalil"]
     }
   },
+  "jobcoach": {
+    "projectImage": "images/job-coach-bg.jpg",
+    "projectTitle": "JobCoach",
+    "projectDescription": "Mobile application to help active job seekers find relevant opportunities through an assistant.",
+    "details": {
+      "projectTime": "11/09/2016",
+      "projectImageHeader": "images/influans-bg.png",
+      "projectImageInfo": "images/job-coach-presentation.png",
+      "projectImageTop": "images/job-coach-guidelines.png",
+      "projectImage1": "images/job-coach-login.png",
+      "projectImage2": "images/job-coach-password.png",
+      "projectImage3": "images/job-coach-coach.png",
+      "projectImage4": "images/job-coach-joboffers.png",
+      "projectInfo": "JobCoach's focus is to help active job seekers to find relevant opportunities (jobs & companies), and assist them to be more effective in the process. The mobile application should be based on what Viadeo already have + some extra features that will make the difference",
+      "projectLink": "http://viadeo.com",
+      "projectRole": ["Wireframing","User Experience","User Interface", "Prototyping"],
+      "projectTeam":["Michael Lescoutre", "Sandra Laurin","Benihoud Khalil"]
+    }
+  },
   "Molotov TV": {
     "projectImage": "images/molotov-bg.jpg",
     "projectTitle": "Molotov TV",
@@ -48,27 +48,9 @@
       "projectImage3": "images/molotov-infos-replay.png",
       "projectImage4": "images/molotov-infos2.png",
       "projectInfo": "Molotov TV is a startup working on a seamless, flexible and universal TV service that lets you watch content at your own pace on all your devices — as long as you live in France.",
-      "projectLink": "http://viadeo.com",
+      "projectLink": "https://www.molotov.tv/",
       "projectRole": ["Wireframing","User Experience","User Interface"],
       "projectTeam":["Benihoud Khalil"]
-    }
-  },
-  "viadeo-partners": {
-    "projectImage": "images/job-coach-bg.jpg",
-    "projectTitle": "Viadeo Partners",
-    "projectDescription": "Molotov TV is a startup working on a seamless, flexible and universal TV service.",
-    "details": {
-      "projectImageHeader": "images/influans-bg.png",
-      "projectImageInfo": "images/job-coach-presentation.png",
-      "projectImage1": "images/job-coach-login.png",
-      "projectImage2": "images/job-coach-password.png",
-      "projectImage3": "images/job-coach-coach.png",
-      "projectImage4": "images/job-coach-joboffers.png",
-      "projectTime": "11/09/2016",
-      "projectInfo": "JobCoach's focus is to help active job seekers to find relevant opportunities (jobs & companies), and assist them to be more effective in the process. The mobile application should be based on what Viadeo already have + some extra features that will make the difference",
-      "projectLink": "http://viadeo.com",
-      "projectRole": ["Wireframing","User Experience","User Interface", "Prototyping"],
-      "projectTeam":["Michael Lescoutre", "Sandra Laurin","Benihoud Khalil"]
     }
   }
 }

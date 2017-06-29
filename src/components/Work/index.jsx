@@ -14,7 +14,7 @@ class Work extends Component {
       return (
         <article className="cf fl w-100 w-100-ns mt4">
           <Link to={'projects/' + id} className="db link">
-            <img src={projectImage} className="w-100 db hover-img" alt="Screenshot of a project" />
+            <img src={projectImage} className="img-projects db br1 hover-img" alt="Screenshot of a project" />
             <div className="pa3 ph3-ns pb3-ns tc">
               <div className="dt w-100 mt1 ">
                 <div className="dtc">

@@ -35,11 +35,11 @@ class Home extends Component{
 
         </section>
 
-        <section id="Werk" className="db dt-ns mw8 center w-100 overflow-hidden work ph3">
+        <section id="Werk" className="db dt-ns mw8 center w-100 overflow-hidden work ph3 ">
           <div className="db dt-ns  center w-100">
             <div className="v-mid dtc">
               <div className="pb3 pb4-ns pt4 pt4-ns">
-                <h2 className="f3 f1-ns f3-m fw2-ns w-10-ns pr3-ns fw4 lh-title measure black-30">
+                <h2 className="f2 fw2-ns f1-ns w-10-ns fw4 lh-title black-30">
                   Selected Works
                 </h2>
               </div>

@@ -7,10 +7,10 @@ class Footer extends Component {
     const imgFooter = "images/tarbouche.svg";
 
     return(
-      <footer id="Footer" className="pv4 ph3 ph5-ns tc">
+      <footer id="Footer" className="pv5 ph3 ph5-ns tc">
         <div className="ph3 ph5-ns">
           <img src={imgFooter} alt="Tarbouche" className="grow" />
-          <p className="f5 fw5 ttu black-70 mb4 tracked-mega">
+          <p className="f5 fw5 ttu black-70 tracked-mega">
             <div className="spinner-heart">
               <svg className="heart" viewBox="0 0 32 29.6">
                 <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
@@ -19,18 +19,7 @@ class Footer extends Component {
             </div>
             </p>
 
-              <a className="link dim gray dib br-100 h2 w1 mr3 grow" href="#" title="Dribbble">
-                <svg data-icon="dribbble" viewBox="0 0 32 32">
-                  <title>dribbble icon</title>
-                  <path d="M16 0 A16 16 0 0 0 0 16 A16 16 0 0 0 16 32 A16 16 0 0 0 32 16 A16 16 0 0 0 16 0 M5 11.5 A12 12 0 0 1 11 5 A46 46 0 0 1 13.5 9.25 A46 46 0 0 1 5 11.5 M15 4 A12 12 0 0 1 21.5 5.25 A46 46 0 0 1 17 7.75 A50 50 0 0 0 15 4 M4 16 A50 50 0 0 0 15 13 A46 46 0 0 1 16 15.5 A26 26 0 0 0 6 22.5 A12 12 0 0 1 4 16 M18.5 11.5 A50 50 0 0 0 25 8 A12 12 0 0 1 28 13.75 A26 26 0 0 0 19.75 14.5 A50 50 0 0 0 18.5 11.5 M17 19.5 A46 46 0 0 1 18 28 A12 12 0 0 1 8.75 25.5 A22 22 0 0 1 17 19.5 M20.75 18.25 A22 22 0 0 1 28 17.75 A12 12 0 0 1 22 26.5 A50 50 0 0 0 20.75 18.25"></path>
-                </svg>
-              </a>
-              <a className="link dim dib h2 w1 br-100 mr3 grow" href="#" title="Twitter">
-                <svg data-icon="twitter" viewBox="0 0 32 32">
-                  <title>twitter icon</title>
-                  <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path>
-                </svg>
-              </a>
+
 
         </div>
       </footer>
