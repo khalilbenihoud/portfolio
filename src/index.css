@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
 }
 
-h2,h3,p, a{
+h2,h3,p, h4, a{
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Poppins', sans-serif;*/
   /*font-family: 'Chivo', sans-serif;*/
