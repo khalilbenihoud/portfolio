@@ -20,29 +20,28 @@ class About extends Component {
 
           <section id="About-Khalil" className="">
 
-            <div className="khalil-intro cover cf bg-mid-gray center ph0-ns ph3 ph0 vh-75">
+            <div className="khalil-intro cf bg-mid-gray center ph0-ns ph3 ph0 vh-75">
               <Header />
-                <div className="db dt-ns mw8 center w-100">
-                    <div className="cf">
-                      <div className="dt w-100 dtc v-mid cover ">
-                          <h2 className="f3 f1-ns f3-m fw7 lh-title measure-wide white">
-                            Human. Creative. Workaholic.
-                          </h2>
-                          <p className="f3-ns lh-title white-70 measure">
-                                Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
-                                passionate about traveling, design, new technologies.
-                                In addition to my technical skills, I am adaptable, cheerful and love to be a part of building world class products.
-                          </p>
-                      </div>
+                <div className="db dt-ns mw8 center w-100 mt4">
+                  <div className="v-mid dtc">
+                    <div className="pb3 pb4-ns pt4 pt4-ns">
+                      <h2 className="f3 f1-ns f3-m fw7 lh-title measure-wide white">
+                        Human. Creative. Workaholic.
+                      </h2>
+                      <p className="f3-ns white-70 measure">Hey, I am Khalil, 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
+                      passionate about traveling, design, new technologies.
+                      In addition to my technical skills, I am adaptable, cheerful and love to be a part of building world class products.</p>
                     </div>
+                  </div>
                 </div>
-            </div>
+
+              </div>
 
 
-          <div id="khalil-work-awards" className="bg-near-white pv4">
+          <div id="khalil-work-awards" className="bg-near-white pv4 ph3">
             <div className="mw8 center">
               <div className="cf pv4">
-                <div className="fl w-100 w-50-ns pa2">
+                <div className="fl w-100 w-50-ns ">
                   <div className="ttu b black-60 tracked-mega pb4">Work</div>
                   <article className="pv2 fl w-100 pr0 pr2-l">
                     <time className="f6 db gray ttu mb2">June 2015 - Present</time>
@@ -61,7 +60,7 @@ class About extends Component {
                   </article>
                 </div>
 
-                <div className="fl w-100 w-50-ns pa2">
+                <div className="fl w-100 w-50-ns">
                   <div className="ttu b black-60 tracked-mega pb4">Honors & Awards</div>
                     <article className="pv2 fl w-100 pr0 pr2-l">
                       <time className="f6 db gray ttu">October 2016</time>
@@ -82,7 +81,7 @@ class About extends Component {
               </div>
             </div>
           </div>
-          <div className="khalil-recommendations">
+          <div className="khalil-recommendations ph3">
             <div className="tc pv4 b--black-10">
                 <img src={imgTestimonials} alt="testimonials" /><br/>
 
