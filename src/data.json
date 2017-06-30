@@ -5,7 +5,7 @@
     "projectDescription": "Mapping startup enabling cars to understand cities infrastructure.",
     "details": {
       "projectTime": "11/09/2016",
-      "projectImageHeader": "images/spotangels-header.png",
+      "projectImageHeader": "images/spotangels-header.svg",
       "projectImageTop": "images/spotangels-landingpage.jpg",
       "projectImageInfo": "images/spotangels.jpg",
       "projectImage1": "images/spotangels-city-newyork.jpg",
@@ -24,7 +24,7 @@
     "projectDescription": "Mobile application to help active job seekers find relevant opportunities through an assistant.",
     "details": {
       "projectTime": "11/09/2016",
-      "projectImageHeader": "images/influans-bg.png",
+      "projectImageHeader": "images/job-coach-gradient.png",
       "projectImageInfo": "images/job-coach-presentation.png",
       "projectImageTop": "images/job-coach-guidelines.png",
       "projectImage1": "images/job-coach-login.png",
@@ -43,7 +43,7 @@
     "projectDescription": "Molotov TV is a startup working on a seamless, flexible and universal TV service.",
     "details": {
       "projectTime": "01/01/2017",
-      "projectImageHeader": "images/molotov-header.png",
+      "projectImageHeader": "images/molotov-header.svg",
       "projectImageInfo": "images/molotov-presentation.png",
       "projectImage3": "images/molotov-infos-replay.png",
       "projectImage4": "images/molotov-infos2.png",

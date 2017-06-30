@@ -27,7 +27,7 @@ class About extends Component {
                       <h2 className="f3 f1-ns f3-m fw7 lh-title measure-wide white">
                         Human. Creative. Workaholic.
                       </h2>
-                      <p className="f3-ns white-70 measure">It's me again, I am a 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
+                      <p className="f3-ns white-70 lh-title measure">It's me again, I am a 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
                       passionate about traveling, photography and longboarding.
                       </p>
                     </div>
