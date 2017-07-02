@@ -4,9 +4,9 @@
     <title>Artboard</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="73.107661%" y1="-21.2153221%" x2="25%" y2="75%" id="linearGradient-1">
-            <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#A3D4FF" offset="100%"></stop>
+        <linearGradient x1="4.4408921e-14%" y1="100%" x2="100%" y2="2.41438656e-30%" id="linearGradient-1">
+            <stop stop-color="#FDC788" offset="0%"></stop>
+            <stop stop-color="#B5DCFF" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
