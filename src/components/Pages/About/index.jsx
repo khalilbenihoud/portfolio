@@ -19,7 +19,7 @@ class About extends Component {
 
 
           <section id="About-Khalil">
-            <div className="khalil-intro cf bg-mid-gray center ph3 vh-75">
+            <div className="khalil-intro cf center ph3 vh-75">
               <Header />
                 <div className="db dt-ns mw8 center w-100 mt4">
                   <div className="v-mid dtc">

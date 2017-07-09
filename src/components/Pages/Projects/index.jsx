@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import _ from 'lodash';
 
 import Header from '../../Header';
 import Home from '../../Home';
@@ -17,6 +18,19 @@ class Projects extends Component {
     render() {
       const project = projects[this.state._id];
 
+      let previous_index = project.position - 1;
+      let next_index = project.position + 1;
+
+      if (previous_index < 0) {
+        previous_index = projects[Object.keys(projects)[Object.keys(projects).length - 1]].position;
+      }
+
+      if (next_index > Object.keys(projects).length) {
+        next_index = 0;
+      }
+
+      let previous_project = _.find(projects, { 'position': previous_index });
+      let next_project = _.find(projects, { 'position': next_index });
 
       const list = function (listing) {
         return listing.map((element) => <li>{element}</li>)
@@ -120,14 +134,14 @@ class Projects extends Component {
 
           <section className="cf dt-l w-100">
             <h3 className="f2-ns tc">More projects</h3>
-            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="f3 overflow-hidden white tc link" title="">
-                {project.projectTitle}
+            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ previous_project.details.projectImageHeader + ') no-repeat center right'}}>
+              <Link to={'projects/' + previous_project.id} className="f3 overflow-hidden white tc link"  target="_blank">
+                {previous_project.projectTitle}
               </Link>
             </div>
-            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="f3 overflow-hidden white tc link" title="">
-                {project.projectTitle}
+            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ next_project.details.projectImageHeader + ') no-repeat center right'}}>
+              <Link to={'projects/' + next_project.id} className="f3 overflow-hidden white tc link"  target="_blank">
+                {next_project.projectTitle}
               </Link>
             </div>
           </section>

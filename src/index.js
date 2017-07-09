@@ -13,10 +13,9 @@ import Projects from './components/Pages/Projects';
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App} />
-    <Route path="/Profile" component={About} />
+    <Route path="/profile" component={About} />
     <Route path="/projects" exact={true} component={Projects} />
     <Route path="/projects/:id" component={Projects} />
-
   </Router>,
   document.getElementById('root')
 );
