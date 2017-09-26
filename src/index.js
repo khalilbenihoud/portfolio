@@ -1,22 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { IndexRoute, Router, Route, hashHistory } from 'react-router';
+import { render } from 'react-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom'
+
 
 import './index.css';
+import './animate.min.css'
 
-import App from './App';
 import Home from './components/Home';
 import Work from './components/Work';
-import About from './components/Pages/About';
-import Projects from './components/Pages/Projects';
+import About from './components/About';
+import Project from './components/Project';
 
-ReactDOM.render(
-  <Router history={hashHistory}>
-    <Route path="/" component={App} />
-    <Route path="/Profile" component={About} />
-    <Route path="/projects" exact={true} component={Projects} />
-    <Route path="/projects/:id" component={Projects} />
-
-  </Router>,
-  document.getElementById('root')
+const Application = () => (
+  <Router>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="about" component={About} />
+      <Route path="project" exact={true} component={Project} />
+      <Route path="project/:id" component={Project} />
+    </Switch>
+  </Router>
 );
+
+render(Application(),document.getElementById('root'));

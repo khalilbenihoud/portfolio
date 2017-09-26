@@ -29,9 +29,9 @@ h2,h3,p, h4, a{
 }
 
 #Hero{
-  background-image: url('../public/images/background.svg');
+  background-image: url('/images/background.svg');
   background-size:cover;
-  background-color: #f2f4f7;
+  /*background-color: #f2f4f7;*/
   background-position: bottom;
 }
 
@@ -69,7 +69,7 @@ h2,h3,p, h4, a{
 }
 
 .khalil-intro{
-background-image: url('../public/images/me.png');
+background-image: url('/images/me.png');
 background-size:cover;
 }
 
