@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
 
 import _ from 'lodash';
 
-import Header from '../Header';
-import Work from '../Work';
-import Contact from '../Contact';
-import Footer from '../Footer';
+import Header from './Header';
+import Work from './Work';
+import Contact from './Contact';
+import Footer from './Footer';
 
 class Home extends Component{
   render(){
-    const data = require('../../data.json');
+    const data = require('../data.json');
     const imgArrow = "images/arrow.svg";
 
     return(
@@ -21,7 +20,7 @@ class Home extends Component{
               <div className="v-mid dtc">
                 <div className="pb3 pb4-ns pt4 pt4-ns">
                   <h2 className="f3 f1-ns f3-m fw7 lh-title measure-wide dark-gray">
-                    Stop looking 👀, I am your guy.
+                    Stop looking, I am your guy.
                   </h2>
                   <p className="f3-ns light-silver measure">I am Benihoud Khalil, a Product Designer based in Paris. I like to solve problems and enjoy the process at the same time.</p>
                 </div>
@@ -49,6 +48,7 @@ class Home extends Component{
                 return (
                   <Work
                     id={key}
+                    key={key}
                     projectImage={work.projectImage}
                     projectTitle={work.projectTitle}
                     projectDescription={work.projectDescription}

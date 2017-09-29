@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
-import Header from '../../Header';
-import Home from '../../Home';
-import Footer from '../../Footer';
-import Contact from '../../Contact';
-import projects from '../../../data';
+import Header from './Header';
+import Footer from './Footer';
+import projects from '../data';
 
 
 class Projects extends Component {
@@ -17,6 +14,19 @@ class Projects extends Component {
     render() {
       const project = projects[this.state._id];
 
+      /*let previous_index = projects[this.state._id] - 1;
+      let next_index = projects[this.state._id] + 1;
+
+      if (previous_index < 0) {
+        previous_index = projects[Object.keys(projects)[Object.keys(projects).length - 1]].position;
+      }
+
+      if (next_index > Object.keys(projects).length) {
+        next_index = 0;
+      }
+
+      let previous_project = _.find(projects, { 'position': previous_index });
+      let next_project = _.find(projects, { 'position': next_index });*/
 
       const list = function (listing) {
         return listing.map((element) => <li>{element}</li>)
@@ -24,9 +34,6 @@ class Projects extends Component {
 
       return (
         <section id="ProjectDetails" className="cover cf center">
-
-
-
           <div className="cover bg-left bg-center-l dt w-100 vh-75" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
             <div className="pb5 pb6-m pb7-l">
               <nav className="dt w-100 mw8 center">
@@ -44,7 +51,6 @@ class Projects extends Component {
                       </div>
                     </div>
                   </div>
-
 
           <div className="projects-infos db dt-ns mw8 center w-100 ph3">
             <div className="serif">
@@ -118,19 +124,7 @@ class Projects extends Component {
           </div>
           </div>
 
-          <section className="cf dt-l w-100">
-            <h3 className="f2-ns tc">More projects</h3>
-            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="f3 overflow-hidden white tc link" title="">
-                {project.projectTitle}
-              </Link>
-            </div>
-            <div className="fl w-50 cover bg-center pv6 tc" style={{background: 'url('+ project.details.projectImageHeader + ') no-repeat center right'}}>
-              <Link to="/" className="f3 overflow-hidden white tc link" title="">
-                {project.projectTitle}
-              </Link>
-            </div>
-          </section>
+
           <Footer />
         </section>
 

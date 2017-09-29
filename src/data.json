@@ -1,5 +1,6 @@
 {
-  "SpotAngels": {
+  "spotangels": {
+    "id": "spotangels",
     "projectImage": "images/spotangels-bg.jpg",
     "projectTitle": "SpotAngels",
     "projectDescription": "Mapping startup enabling cars to understand cities infrastructure.",
@@ -19,6 +20,7 @@
     }
   },
   "jobcoach": {
+    "id": "jobcoach",
     "projectImage": "images/job-coach-bg.jpg",
     "projectTitle": "JobCoach",
     "projectDescription": "Mobile application to help active job seekers find relevant opportunities through an assistant.",
@@ -37,7 +39,8 @@
       "projectTeam":["Michael Lescoutre", "Sandra Laurin","Benihoud Khalil"]
     }
   },
-  "Molotov TV": {
+  "molotovtv": {
+    "id": "molotovtv",
     "projectImage": "images/molotov-bg.jpg",
     "projectTitle": "Molotov TV",
     "projectDescription": "Molotov TV is a startup working on a seamless, flexible and universal TV service.",

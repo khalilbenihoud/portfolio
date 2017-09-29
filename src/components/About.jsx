@@ -1,39 +1,31 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
-import Header from '../../Header';
-import Home from '../../Home';
-import Footer from '../../Footer';
-import Contact from '../../Contact';
+import Header from './Header';
+import Contact from './Contact';
+import Footer from './Footer';
 
 
 class About extends Component {
     render() {
 
-      const imgAbout = "images/me.png";
       const imgTestimonials = "images/marie.png"
-      const imgQuote = "images/quote.svg"
       return (
-
-
-
-
-          <section id="About-Khalil">
-            <div className="khalil-intro cf bg-mid-gray center ph3 vh-75">
-              <Header />
-                <div className="db dt-ns mw8 center w-100 mt4">
-                  <div className="v-mid dtc">
-                    <div className="pb3 pb4-ns pt4 pt4-ns">
-                      <h2 className="f3 f1-ns f3-m fw7 lh-title measure-wide white">
-                        Human. Creative. Workaholic.
-                      </h2>
-                      <p className="f3-ns white-70 lh-title measure">It's me again, I am a 23 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
-                      passionate about traveling, photography and longboarding.
-                      </p>
-                    </div>
+        <section id="About-Khalil">
+          <div className="khalil-intro cf bg-mid-gray center ph3 vh-75">
+            <Header />
+              <div className="db dt-ns mw8 center w-100 mt4">
+                <div className="v-mid dtc">
+                  <div className="pb3 pb4-ns pt4 pt4-ns">
+                    <h2 className="f3 f1-ns f3-m fw7 lh-title measure-wide white">
+                      Human. Creative. Workaholic.
+                    </h2>
+                    <p className="f3-ns white-70 lh-title measure">It's me again, I am a 24 years old creative guy living in Paris, fighting the cold weather by creativity and crazy ideas,
+                    passionate about traveling, photography and longboarding.
+                    </p>
                   </div>
                 </div>
               </div>
+            </div>
 
           <div id="khalil-work-awards" className="bg-near-white pv4 ph3">
             <div className="mw8 center">
