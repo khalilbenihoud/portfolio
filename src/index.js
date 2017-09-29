@@ -19,9 +19,9 @@ const Application = () => (
   <Router>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="about" component={About} />
-      <Route path="project" exact={true} component={Project} />
-      <Route path="project/:id" component={Project} />
+      <Route path="/about" component={About} />
+      <Route path="/project" exact={true} component={Project} />
+      <Route path="/project/:id" component={Project} />
     </Switch>
   </Router>
 );
